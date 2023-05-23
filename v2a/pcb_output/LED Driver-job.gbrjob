@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.2"
     },
-    "CreationDate": "2023-05-19T14:46:58-05:00"
+    "CreationDate": "2023-05-23T14:29:37-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "LED Driver",
       "GUID": "4c454420-4472-4697-9665-722e6b696361",
-      "Revision": "v1a"
+      "Revision": "v2a"
     },
     "Size": {
       "X": 82.6,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.6,
-      "PadToTrack": 0.6,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.6,
       "MinLineWidth": 0.5,
       "TrackToRegion": 0.6,
