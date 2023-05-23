@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "led_driver")(type "KiCad")(uri "D:/OneDrive - Northwestern University/CURRENT/A - SBC/LED driver kicad/led_driver.kicad_sym")(options "")(descr ""))
+)
