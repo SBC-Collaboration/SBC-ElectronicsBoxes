@@ -471,6 +471,58 @@
     [
       "33b0be37-4aa5-415a-8914-5441d29c7862",
       ""
+    ],
+    [
+      "3e6a5cb4-ac30-401e-9677-760e7bc58bd1",
+      "power_in"
+    ],
+    [
+      "a70103d4-c2c2-4f23-ab81-e269e97d3343",
+      "driver_pcbs"
+    ],
+    [
+      "5e871350-b1b5-4da6-9cb0-2338630621d0",
+      "din_rail"
+    ],
+    [
+      "9387f123-e31c-422e-82a6-fbe4cb7bcc0c",
+      "din_rail_led"
+    ],
+    [
+      "74745f5e-1252-4f3a-bc8d-68d6890d4cf7",
+      "driver_pcb3.1"
+    ],
+    [
+      "3ca9c92f-709d-4e18-b272-139616963ee2",
+      "driver_pcb3.2"
+    ],
+    [
+      "8fec8f0b-9f34-4934-bf92-807e3994155a",
+      "driver_pcb3.3"
+    ],
+    [
+      "d28636e9-13db-4c53-b224-945137463269",
+      "driver_pcb2.3"
+    ],
+    [
+      "a4447a63-ef0e-43c4-af69-1257bcbce63d",
+      "driver_pcb2.2"
+    ],
+    [
+      "0e11f77d-805c-4ff3-884d-c6460b90993a",
+      "driver_pcb2.1"
+    ],
+    [
+      "c7e71d67-471b-40dc-a194-1e04bd469d97",
+      "driver_pcb1.1"
+    ],
+    [
+      "d95b39f6-877e-452c-b889-a4d8a7ce2aa3",
+      "driver_pcb1.2"
+    ],
+    [
+      "87f8951b-c5a5-46b9-8156-2a8a15ed0f9e",
+      "driver_pcb1.3"
     ]
   ],
   "text_variables": {}

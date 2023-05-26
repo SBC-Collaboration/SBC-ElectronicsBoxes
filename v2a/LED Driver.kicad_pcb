@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber v2a/")
+      (outputdirectory "pcb_output/")
     )
   )
 
