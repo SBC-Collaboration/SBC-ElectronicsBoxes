@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LED Driver Box")
+    (date "2023-07-19")
+  )
+
   (lib_symbols
   )
 
