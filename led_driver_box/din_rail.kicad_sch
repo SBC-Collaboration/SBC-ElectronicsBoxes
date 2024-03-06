@@ -452,6 +452,12 @@
     (uuid ef07d3ad-c0b9-44bc-933f-046b2071b80f)
   )
 
+  (text "Terminal blocks:\nWeidmueller 1020100000\nTerminal jumpers:\nWeidmueller 1054460000\n"
+    (at 36.83 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b6bc10e6-84b0-4dd4-a1ea-f96f06fe9cbc)
+  )
+
   (hierarchical_label "V+3" (shape input) (at 36.83 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 02077a7e-7014-4126-baf0-8b6fe652a912)

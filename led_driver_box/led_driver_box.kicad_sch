@@ -694,7 +694,7 @@
     (uuid ffaad7d5-d90a-4234-90ed-923fbede4ac6)
   )
 
-  (text "amphenol \nbayonet \nconnectors" (at 223.52 160.02 0)
+  (text "amphenol \nbayonet \nconnectors\nPT02A-10-6S" (at 223.52 162.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c95c8ff6-a72d-4eb6-807d-b3f46a86dd2b)
   )
@@ -1960,6 +1960,6 @@
   )
 
   (sheet_instances
-    (path "/" (page "7"))
+    (path "/" (page "1"))
   )
 )
