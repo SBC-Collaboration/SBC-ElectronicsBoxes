@@ -2162,11 +2162,11 @@
     )
     (symbol "barrel_jack_1_1"
       (pin input line (at 5.08 -1.27 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
+        (name "NEG" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 5.08 1.27 180) (length 2.54)
-        (name "V" (effects (font (size 1.27 1.27))))
+        (name "POS" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
       )
     )
