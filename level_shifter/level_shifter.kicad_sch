@@ -2455,6 +2455,23 @@
     )
   )
 
+  (sheet (at 20.32 175.26) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6c84d415-f7fa-4480-992e-b0333550a11a)
+    (property "Sheetname" "24v_to_5v" (at 20.32 174.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "24v_to_5v.kicad_sch" (at 20.32 192.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "level_shifter"
+        (path "/6fddfeea-b9e6-409f-abf1-28266caabd5a" (page "2"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
