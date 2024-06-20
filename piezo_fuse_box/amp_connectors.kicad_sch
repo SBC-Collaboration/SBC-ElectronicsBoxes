@@ -1,0 +1,1948 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bbef3ceb-d3da-4c14-95db-a3827f4b8df3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "led_driver:bayonet_6pin_piezo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "bayonet_6pin_piezo"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "bayonet_6pin_piezo_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "bayonet_6pin_piezo_1_1"
+				(pin passive line
+					(at 6.35 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 50.8 121.92)
+		(uuid "110da4cd-4f1c-41ed-b088-f3d6c0f6e2de")
+	)
+	(no_connect
+		(at 50.8 96.52)
+		(uuid "3548eb14-22c7-4e78-a9b5-d1a8ed337d1d")
+	)
+	(no_connect
+		(at 50.8 71.12)
+		(uuid "37f3b198-a287-4194-a1b0-ac2cdc3bb139")
+	)
+	(no_connect
+		(at 50.8 45.72)
+		(uuid "650e0ed4-913b-415a-9bb0-738a723419db")
+	)
+	(no_connect
+		(at 99.06 120.65)
+		(uuid "80dec0f1-adc5-4e0e-a037-81cb9f4d95ce")
+	)
+	(no_connect
+		(at 99.06 69.85)
+		(uuid "a12c8ad6-f449-403f-b916-fc7cbb86108a")
+	)
+	(no_connect
+		(at 99.06 95.25)
+		(uuid "b7cab194-7895-42af-92ba-8be6d27eb172")
+	)
+	(no_connect
+		(at 99.06 45.72)
+		(uuid "e4db62a7-73ae-4207-9232-9cdf160e8277")
+	)
+	(text "CH2\n"
+		(exclude_from_sim no)
+		(at 32.258 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58148a2d-f89c-4d7d-993a-535295e178fe")
+	)
+	(text "CH8\n"
+		(exclude_from_sim no)
+		(at 80.518 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66210d4f-9b47-4b7e-bc70-eba024bef1dd")
+	)
+	(text "CH3\n"
+		(exclude_from_sim no)
+		(at 32.258 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bed6e14-0fff-4526-bd64-b201e7417311")
+	)
+	(text "CH7\n"
+		(exclude_from_sim no)
+		(at 80.518 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e62c489-5f33-44a6-b842-ff4d78b926ff")
+	)
+	(text "CH1"
+		(exclude_from_sim no)
+		(at 32.258 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e1c5515-c4e3-4e11-8854-e484a6d0594a")
+	)
+	(text "CH4\n"
+		(exclude_from_sim no)
+		(at 32.258 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d40b02db-90de-4091-b1a3-601f70de5060")
+	)
+	(text "CH5\n"
+		(exclude_from_sim no)
+		(at 80.518 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee268bbd-6a95-470a-a687-e6b5509d4c82")
+	)
+	(text "CH6\n"
+		(exclude_from_sim no)
+		(at 80.518 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1131be0-babd-4997-8d58-00e786e96369")
+	)
+	(hierarchical_label "Piezo_GND_CH5"
+		(shape output)
+		(at 99.06 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0315541f-2549-482b-89fd-b2aa8004c23b")
+	)
+	(hierarchical_label "Piezo_GND_CH4"
+		(shape output)
+		(at 50.8 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1727b558-96d5-4426-be1d-2f99c84c5328")
+	)
+	(hierarchical_label "Piezo_SIG_CH8"
+		(shape output)
+		(at 99.06 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a81b740-ee50-4d6a-88cb-c13df5c07a70")
+	)
+	(hierarchical_label "Piezo_GND_CH1"
+		(shape output)
+		(at 50.8 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24a1c3b5-610e-4f83-ba4b-f78b9393e6b3")
+	)
+	(hierarchical_label "V+_CH8"
+		(shape input)
+		(at 99.06 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "329547d8-eb64-4128-9ccc-73366cded9be")
+	)
+	(hierarchical_label "Piezo_GND_CH7"
+		(shape output)
+		(at 99.06 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51cd90bf-131b-436c-a1ad-19c74a10ac62")
+	)
+	(hierarchical_label "V+_CH6"
+		(shape input)
+		(at 99.06 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53843e66-ba64-4500-a25a-fb5e488437bc")
+	)
+	(hierarchical_label "Piezo_GND_CH6"
+		(shape output)
+		(at 99.06 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "544295d9-2917-41b5-8bc6-61c4d49984e9")
+	)
+	(hierarchical_label "Piezo_SIG_CH4"
+		(shape output)
+		(at 50.8 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f3e3d8-52b8-4912-865b-63d5b14bfc60")
+	)
+	(hierarchical_label "V+_CH4"
+		(shape input)
+		(at 50.8 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cb167cf-8e76-4cbd-8fc2-ae035cbee443")
+	)
+	(hierarchical_label "V-_CH7"
+		(shape input)
+		(at 99.06 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5eb30975-8b8d-40ac-9a56-8f98e7d22e31")
+	)
+	(hierarchical_label "Piezo_GND_CH3"
+		(shape output)
+		(at 50.8 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6495aa57-995b-4a33-b463-778189bc6516")
+	)
+	(hierarchical_label "V-_CH6"
+		(shape input)
+		(at 99.06 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72990e00-45aa-4f76-81eb-1d996208b8e6")
+	)
+	(hierarchical_label "V-_CH4"
+		(shape input)
+		(at 50.8 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7766f57b-3e0c-4739-bf2e-a0dfc443fab3")
+	)
+	(hierarchical_label "V-_CH5"
+		(shape input)
+		(at 99.06 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c3a558f-7365-409d-9988-9a2e917e2e06")
+	)
+	(hierarchical_label "V+_CH1"
+		(shape input)
+		(at 50.8 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86680695-e6ee-4ee2-903b-431dd956673c")
+	)
+	(hierarchical_label "Piezo_SIG_CH2"
+		(shape output)
+		(at 50.8 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86dc3c02-f04b-415d-a08f-89716cd4a4a6")
+	)
+	(hierarchical_label "V-_CH1"
+		(shape input)
+		(at 50.8 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c9353f1-244e-49c9-a148-33bb9c23970e")
+	)
+	(hierarchical_label "Piezo_SIG_CH3"
+		(shape output)
+		(at 50.8 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9624a328-8aa8-4b66-aa40-07150c3cb3ad")
+	)
+	(hierarchical_label "V+_CH3"
+		(shape input)
+		(at 50.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ebd5779-1a1e-4988-af03-176c75135fe8")
+	)
+	(hierarchical_label "Piezo_GND_CH2"
+		(shape output)
+		(at 50.8 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ac8c39-7290-4f07-95b6-636ff63e67a6")
+	)
+	(hierarchical_label "V+_CH5"
+		(shape input)
+		(at 99.06 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c345c4c3-c9f1-4872-9e9b-c218a447bca9")
+	)
+	(hierarchical_label "V+_CH7"
+		(shape input)
+		(at 99.06 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3b7b9ff-86cf-4713-af7b-bc6efbe554f8")
+	)
+	(hierarchical_label "Piezo_SIG_CH7"
+		(shape output)
+		(at 99.06 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4c3b3ab-bc9a-4266-add8-5920962689e8")
+	)
+	(hierarchical_label "V-_CH8"
+		(shape input)
+		(at 99.06 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c70c8568-eeb9-43ea-a481-4f2292d25c3f")
+	)
+	(hierarchical_label "V-_CH2"
+		(shape input)
+		(at 50.8 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd9e2c4b-092d-4450-b97a-cd5787d0213d")
+	)
+	(hierarchical_label "V+_CH2"
+		(shape input)
+		(at 50.8 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d16f4300-5777-4dc4-ad91-935af8682432")
+	)
+	(hierarchical_label "Piezo_SIG_CH1"
+		(shape output)
+		(at 50.8 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e267b79d-2198-434e-95f8-9e32746cb428")
+	)
+	(hierarchical_label "V-_CH3"
+		(shape input)
+		(at 50.8 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2baa102-21f2-47b4-8cc5-2fe13e14d995")
+	)
+	(hierarchical_label "Piezo_SIG_CH6"
+		(shape output)
+		(at 99.06 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9c9b39b-2d5d-4f9d-beb3-b06dd2a60e66")
+	)
+	(hierarchical_label "Piezo_GND_CH8"
+		(shape output)
+		(at 99.06 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb928070-c245-478c-8c95-c7c3b00852ea")
+	)
+	(hierarchical_label "Piezo_SIG_CH5"
+		(shape output)
+		(at 99.06 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "feb11a09-1e68-4aa6-88ad-995484a26a23")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a00e959-7bee-4b8a-87aa-001d18c523a0")
+		(property "Reference" "#PWR015"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3347c467-9d18-4a46-ab56-fe03955772b2")
+		)
+		(instances
+			(project ""
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 92.71 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2e165b-04e1-4e47-a189-090ff244ea0e")
+		(property "Reference" "J5"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "46ce9711-5063-4e0b-aea0-a0702bc315b5")
+		)
+		(pin "C"
+			(uuid "6b244cc5-0d8c-4071-b07b-f010dea63342")
+		)
+		(pin "D"
+			(uuid "83868f0b-95cb-4ad1-b0e6-a12f758cae62")
+		)
+		(pin "F"
+			(uuid "cc21f148-a407-4b68-bacf-90493ccf5791")
+		)
+		(pin "A"
+			(uuid "113807e1-c98b-4a49-bf01-80f8d499bb84")
+		)
+		(pin "E"
+			(uuid "44d0661a-1c8a-4e21-89ca-4f6c9cf087e3")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 44.45 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bb32cdc-5034-4ba1-be9b-6c5a8eef4e32")
+		(property "Reference" "J4"
+			(at 44.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "31fe0f9d-4cbd-4d73-a881-fbacfb7a6750")
+		)
+		(pin "C"
+			(uuid "ea760241-b8d6-4aaf-a1b0-e7385233fe36")
+		)
+		(pin "D"
+			(uuid "757a01b3-5c61-4db5-9f8f-08c177f48a12")
+		)
+		(pin "F"
+			(uuid "04e3761e-f459-4378-aec5-a0d10234784c")
+		)
+		(pin "A"
+			(uuid "2027be47-46f6-4141-80da-272c94097980")
+		)
+		(pin "E"
+			(uuid "bc2b2a98-b5f4-48cb-8567-9f793ee77318")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 44.45 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fc98e35-db4a-4c6a-878c-900fa8903b80")
+		(property "Reference" "J2"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "2a6e683e-77ed-48cf-a32d-3d2e526e6967")
+		)
+		(pin "C"
+			(uuid "b158a79a-850f-482f-80d1-ea1e60b8a809")
+		)
+		(pin "D"
+			(uuid "3647a5b5-d904-4c12-bfb6-7f01f28e8935")
+		)
+		(pin "F"
+			(uuid "306786a0-1d90-434d-9324-d5f5f94c36cb")
+		)
+		(pin "A"
+			(uuid "5d0025a3-3190-4553-8928-946667386221")
+		)
+		(pin "E"
+			(uuid "80a4bb8d-1f19-4552-9282-e9ad4a94c456")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ad746a-cb3e-432b-9fe4-0d24e3ef648e")
+		(property "Reference" "#PWR021"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58aa4c1-ee41-4373-ab2e-f76c6f912e01")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da68e59-b7b6-4a41-b871-1651a1009134")
+		(property "Reference" "#PWR017"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4580e86-ddcf-4e7d-aba6-2eda310d7027")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 92.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fdfea4d-e4e8-438e-ad07-83c120b319bf")
+		(property "Reference" "J8"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 92.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "e1a371dc-0239-43c7-a409-4d0ca4e40aee")
+		)
+		(pin "C"
+			(uuid "d8a2e9f2-410e-4425-9ca2-43299b7aec09")
+		)
+		(pin "D"
+			(uuid "c7ac0f25-fd2b-4be9-873c-570cf45664a5")
+		)
+		(pin "F"
+			(uuid "ff4c24fb-f114-4b1f-ad2b-225300b88ea5")
+		)
+		(pin "A"
+			(uuid "ff4be349-bb47-4451-89d5-dd15bbf5ebce")
+		)
+		(pin "E"
+			(uuid "55113c76-c06f-41b3-a654-694b5e492f6a")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91352c70-7bc1-40d9-b3f7-6a6d403a5a46")
+		(property "Reference" "#PWR018"
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63bf4758-3649-4773-b4f9-805e9a079495")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "979da514-7bd1-4b90-bd3a-fa2e3deb6eea")
+		(property "Reference" "#PWR019"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20c4011e-66d4-4818-b2fb-cdef6bd0243a")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 92.71 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a996a48f-be8e-4e53-84cf-9944ac0d02c4")
+		(property "Reference" "J7"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "f7e408fa-4a7d-4cf9-88d1-c815ad136358")
+		)
+		(pin "C"
+			(uuid "460a5df7-bad6-4661-97f8-d983f0235b76")
+		)
+		(pin "D"
+			(uuid "f3d3e932-7b3b-4e28-a4b8-190f57a7d074")
+		)
+		(pin "F"
+			(uuid "abf6bd81-6105-4f32-9632-08bf30fd8bb0")
+		)
+		(pin "A"
+			(uuid "a53ed736-9848-447c-8a7d-c7b2f1cdce98")
+		)
+		(pin "E"
+			(uuid "8af476ba-dd92-44d1-b579-d0e0ecd554f3")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 44.45 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd05b5e3-37a3-4fe0-bee6-637799cfe94c")
+		(property "Reference" "J1"
+			(at 44.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "30dedf2c-bebe-4dc9-9caf-8aefb76e6dd7")
+		)
+		(pin "C"
+			(uuid "9ce028da-cb6c-4166-84e0-a0dd632e65f0")
+		)
+		(pin "D"
+			(uuid "a4645725-5c05-4379-aa43-2318a9f3aa8b")
+		)
+		(pin "F"
+			(uuid "80e52eae-e8c0-409f-bdd9-210ddde5f16c")
+		)
+		(pin "A"
+			(uuid "5075653c-381d-4d4e-816a-b0dcabb9c26f")
+		)
+		(pin "E"
+			(uuid "e82b350d-14a7-4d3c-b431-2ac951fcfb08")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c38e16d0-afe4-4692-b027-98b4ddf92eee")
+		(property "Reference" "#PWR022"
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe1900d-da9f-4799-8cb7-6e33b883e7be")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 92.71 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb73abd8-c22a-4b6b-8693-96615f514955")
+		(property "Reference" "J6"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "666a2a4b-e049-4104-9943-d836c900a7f4")
+		)
+		(pin "C"
+			(uuid "42c732a1-811a-407d-8b53-614a4677eecb")
+		)
+		(pin "D"
+			(uuid "1a576c9d-baf2-493d-a58d-56cdaaf99c29")
+		)
+		(pin "F"
+			(uuid "87849ecf-885f-4a60-8c46-aeb37dfdec13")
+		)
+		(pin "A"
+			(uuid "856837de-b58f-4823-9f9a-7211c9673c95")
+		)
+		(pin "E"
+			(uuid "9787b2f5-0950-4519-9947-4f3767799eb9")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf84fc51-fde7-4ee6-902f-5eb34f9d5059")
+		(property "Reference" "#PWR020"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2bc0199-d1df-4102-9056-76b5804fc45d")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_6pin_piezo")
+		(at 44.45 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3731956-53d2-4061-8135-d22f77beb9ba")
+		(property "Reference" "J3"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "bayonet_6pin_piezo"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "39cf2edd-1619-42ef-8d5e-5fe74e22ea9b")
+		)
+		(pin "C"
+			(uuid "3b54d139-72cb-4466-a227-23f474d64719")
+		)
+		(pin "D"
+			(uuid "bce9b765-baab-4b8d-b14a-f472fb06afaf")
+		)
+		(pin "F"
+			(uuid "50e6c91c-d07b-4516-8dd5-a792ad606769")
+		)
+		(pin "A"
+			(uuid "ae48c831-bcfb-4b7f-992d-f3bd42ba79d0")
+		)
+		(pin "E"
+			(uuid "92de1464-0565-45cc-b1e4-eead4d1dd407")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7df009a-e4ec-46a0-899a-05447e5dfaea")
+		(property "Reference" "#PWR016"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7754688a-cc9e-44c6-a742-7e5c94ebcf38")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829/efdfcc7f-35f8-449f-a37f-2a599a2b6d34"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
