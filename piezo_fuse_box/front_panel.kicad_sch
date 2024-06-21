@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "178ecaf7-e70f-4c80-bbb0-de1a8cd85e4f")
 	(paper "A4")
+	(title_block
+		(title "Piezo fuse box")
+		(date "2024-06-21")
+		(rev "v0")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
 	(lib_symbols
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
@@ -1955,6 +1962,16 @@
 		)
 		(uuid "a25a3591-dfc6-4cf4-b24e-a038c1a2c0e2")
 	)
+	(text "Grounds are connected to the ground rail"
+		(exclude_from_sim no)
+		(at 75.438 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8d58dfd-8a76-48c7-bdac-8e90db98cb03")
+	)
 	(text "CH7"
 		(exclude_from_sim no)
 		(at 34.29 146.05 0)
@@ -2865,10 +2882,10 @@
 			(uuid "51fa3e89-5606-4491-85e0-128fc3e65f44")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9903")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9904")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d0")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d1")
 		)
 		(pin "6"
 			(uuid "8fa9544b-7c22-4d97-850b-9326b03dfcac")
@@ -2877,7 +2894,7 @@
 			(uuid "9e60f01e-c560-43d4-9dc5-3c58a435b01e")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e60")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e61")
 		)
 		(instances
 			(project "piezo_fuse_box"
@@ -3012,10 +3029,10 @@
 			(uuid "5e27e20c-4092-46e0-8800-3dd9dceebb0e")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9903")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9905")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d0")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d2")
 		)
 		(pin "6"
 			(uuid "b1c3080c-11db-4a3a-a927-79a41dba6a09")
@@ -3024,7 +3041,7 @@
 			(uuid "1c8e7975-0db9-420a-bd3f-c7a8f70a3a9e")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e60")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e62")
 		)
 		(instances
 			(project "piezo_fuse_box"
@@ -3497,10 +3514,10 @@
 			(uuid "84327add-0799-4282-bee3-198340d1d5bc")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9903")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9906")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d0")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d3")
 		)
 		(pin "6"
 			(uuid "174a84f1-14ad-4d61-a176-999b43ccc583")
@@ -3509,7 +3526,7 @@
 			(uuid "4c6a31ae-1a6c-4626-b471-4df1612ffc2c")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e60")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e63")
 		)
 		(instances
 			(project "piezo_fuse_box"
@@ -3574,7 +3591,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a3")
 		)
 		(pin "1"
 			(uuid "c2120f32-3362-4c76-abdc-8bba37b3c7f8")
@@ -3583,10 +3600,10 @@
 			(uuid "2408dbae-cfba-4b38-b4f1-5018c869face")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fe")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b9")
 		)
 		(pin "3"
 			(uuid "797138aa-49d7-4259-bfd5-39459197d669")
@@ -4191,7 +4208,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a4")
 		)
 		(pin "1"
 			(uuid "376db41d-bea4-4692-acad-c7149ffea246")
@@ -4200,10 +4217,10 @@
 			(uuid "c4e0de82-e0c3-4042-8130-67d97a9819b4")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0ff")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4ba")
 		)
 		(pin "3"
 			(uuid "504971f9-ab71-4496-adec-9c35c68320c0")
@@ -5013,7 +5030,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a5")
 		)
 		(pin "1"
 			(uuid "4749924e-428d-4e86-bfba-ba83e7da9902")
@@ -5022,10 +5039,10 @@
 			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3cf")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca100")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4bb")
 		)
 		(pin "3"
 			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e5f")
@@ -5163,10 +5180,10 @@
 			(uuid "b2ab402e-cd65-4f35-a690-4dd38ef820fc")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9903")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9907")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d0")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d4")
 		)
 		(pin "6"
 			(uuid "e81337c8-975c-44d2-8db7-94b7760f0e69")
@@ -5175,7 +5192,7 @@
 			(uuid "6533367d-156f-46f3-9be7-e47d78640789")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e60")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e64")
 		)
 		(instances
 			(project "piezo_fuse_box"
@@ -5510,7 +5527,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a6")
 		)
 		(pin "1"
 			(uuid "b8c28082-e06b-4813-88db-72cd4896a055")
@@ -5519,10 +5536,10 @@
 			(uuid "84f5cc22-3e5f-4389-b91c-d89e326a9179")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca101")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4bc")
 		)
 		(pin "3"
 			(uuid "45f245ad-07a1-4f0b-a860-7a2e637ee7b2")
@@ -6063,7 +6080,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a7")
 		)
 		(pin "1"
 			(uuid "67ebbcaa-b531-416b-b790-547e9c9dc731")
@@ -6072,10 +6089,10 @@
 			(uuid "f69d346f-6a06-4e7d-9ceb-f3cea4db85ee")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca102")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4bd")
 		)
 		(pin "3"
 			(uuid "afd865a7-4082-4b19-bc15-0c9584b59547")
@@ -6748,22 +6765,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a8")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9902")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9908")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3cf")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d5")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca103")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4be")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e5f")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e65")
 		)
 		(instances
 			(project ""
@@ -6895,7 +6912,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a2")
+			(uuid "6d6e06a5-7d8d-494c-962a-dc10a2e046a9")
 		)
 		(pin "1"
 			(uuid "ff609f6a-6227-42c8-9c41-2e473e989035")
@@ -6904,10 +6921,10 @@
 			(uuid "c0916445-cecf-4adf-a359-92a3a86c2905")
 		)
 		(pin "6"
-			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca0fd")
+			(uuid "e8511508-4d37-4a70-9dc6-30fbd1dca104")
 		)
 		(pin "5"
-			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4b8")
+			(uuid "98eaf548-0d3f-4ad6-aaaa-9d8c58bad4bf")
 		)
 		(pin "3"
 			(uuid "9c37fc87-c3ee-4f8e-b1dc-8a7b7065f1c4")
@@ -7046,10 +7063,10 @@
 			(uuid "cd929ba0-5e9d-4ef3-9791-b4ce98765efa")
 		)
 		(pin "1"
-			(uuid "4749924e-428d-4e86-bfba-ba83e7da9903")
+			(uuid "4749924e-428d-4e86-bfba-ba83e7da9909")
 		)
 		(pin "2"
-			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d0")
+			(uuid "89e4806a-c26e-4f25-b531-53b7c189a3d6")
 		)
 		(pin "6"
 			(uuid "8a19830b-ce2a-426e-affc-b4ea532a42a6")
@@ -7058,7 +7075,7 @@
 			(uuid "26e71f09-dfe9-4627-b327-f68e292be4dd")
 		)
 		(pin "3"
-			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e60")
+			(uuid "137c791a-333b-4b1b-9377-b0051a8b6e66")
 		)
 		(instances
 			(project "piezo_fuse_box"

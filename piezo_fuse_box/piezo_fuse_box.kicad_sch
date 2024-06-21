@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "b2bf96dd-c53b-4c67-a44e-e13de2f06829")
 	(paper "A4")
+	(title_block
+		(title "Piezo fuse box")
+		(date "2024-06-21")
+		(rev "v0")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -103,7 +110,7 @@
 		)
 	)
 	(bus_entry
-		(at 154.94 147.32)
+		(at 205.74 152.4)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -112,7 +119,7 @@
 		(uuid "1b4428b5-6a93-4ed7-ac2c-3b9b6d97a17b")
 	)
 	(bus_entry
-		(at 157.48 154.94)
+		(at 208.28 160.02)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -121,7 +128,7 @@
 		(uuid "1cf44231-cbc9-4d9e-a8e5-d62175d80b4d")
 	)
 	(bus_entry
-		(at 154.94 106.68)
+		(at 205.74 111.76)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -130,7 +137,7 @@
 		(uuid "26bcff4b-e889-4293-b241-33a2a51526c3")
 	)
 	(bus_entry
-		(at 154.94 121.92)
+		(at 205.74 127)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -139,7 +146,7 @@
 		(uuid "3e240b6f-da87-4952-9922-3c9db18a7534")
 	)
 	(bus_entry
-		(at 154.94 137.16)
+		(at 205.74 142.24)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -148,7 +155,7 @@
 		(uuid "5b34e1a6-6aca-41d1-a09e-67d20e90acbd")
 	)
 	(bus_entry
-		(at 154.94 111.76)
+		(at 205.74 116.84)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -157,7 +164,7 @@
 		(uuid "6e1b1ebc-2173-4c3e-a40f-49a0c310b04a")
 	)
 	(bus_entry
-		(at 154.94 119.38)
+		(at 205.74 124.46)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -166,7 +173,7 @@
 		(uuid "6f581c6f-f76d-4ae5-bd34-5b4513322deb")
 	)
 	(bus_entry
-		(at 154.94 132.08)
+		(at 205.74 137.16)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -175,7 +182,7 @@
 		(uuid "76409b37-3c04-463c-8ec6-1d998078394d")
 	)
 	(bus_entry
-		(at 154.94 139.7)
+		(at 205.74 144.78)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -184,7 +191,7 @@
 		(uuid "7b01e03a-a67b-4db6-bc1a-5278b354a7ef")
 	)
 	(bus_entry
-		(at 154.94 144.78)
+		(at 205.74 149.86)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -193,7 +200,7 @@
 		(uuid "878e4e2d-9c03-426f-ab50-de1fea3c8fe6")
 	)
 	(bus_entry
-		(at 154.94 127)
+		(at 205.74 132.08)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -202,7 +209,7 @@
 		(uuid "8f0b546e-8092-4682-b653-2af49ab83d23")
 	)
 	(bus_entry
-		(at 154.94 109.22)
+		(at 205.74 114.3)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -211,7 +218,7 @@
 		(uuid "9d3fc6e1-6c87-4183-8e55-cdd7e5a2b717")
 	)
 	(bus_entry
-		(at 154.94 129.54)
+		(at 205.74 134.62)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -220,7 +227,7 @@
 		(uuid "a4598360-83b4-45dd-884e-5a216d74c3de")
 	)
 	(bus_entry
-		(at 154.94 124.46)
+		(at 205.74 129.54)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -229,7 +236,7 @@
 		(uuid "b8b2c5eb-de2b-408e-abff-483adba5c640")
 	)
 	(bus_entry
-		(at 154.94 114.3)
+		(at 205.74 119.38)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -238,7 +245,7 @@
 		(uuid "b947e29c-77d7-4240-bb59-8c7a0697c874")
 	)
 	(bus_entry
-		(at 154.94 149.86)
+		(at 205.74 154.94)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -247,7 +254,7 @@
 		(uuid "bf1bd74e-4496-4d3e-bdb9-d1d373938e43")
 	)
 	(bus_entry
-		(at 154.94 134.62)
+		(at 205.74 139.7)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -256,7 +263,7 @@
 		(uuid "c652c15b-7c97-4609-aefc-0ec1456dc571")
 	)
 	(bus_entry
-		(at 154.94 116.84)
+		(at 205.74 121.92)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -265,7 +272,7 @@
 		(uuid "f4a46473-fa46-4625-98c3-37466841c2a5")
 	)
 	(bus_entry
-		(at 154.94 142.24)
+		(at 205.74 147.32)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -275,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 113.03 67.31)
+			(xy 153.67 72.39) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -285,7 +292,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 147.32) (xy 157.48 149.86)
+			(xy 208.28 152.4) (xy 208.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -295,7 +302,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 109.22) (xy 113.03 109.22)
+			(xy 109.22 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -305,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 139.7) (xy 113.03 139.7)
+			(xy 109.22 144.78) (xy 165.1 144.78)
 		)
 		(stroke
 			(width 0)
@@ -315,7 +322,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 149.86) (xy 157.48 152.4)
+			(xy 208.28 154.94) (xy 208.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -325,7 +332,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 129.54) (xy 157.48 132.08)
+			(xy 208.28 134.62) (xy 208.28 137.16)
 		)
 		(stroke
 			(width 0)
@@ -335,7 +342,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 113.03 62.23)
+			(xy 153.67 35.56) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baf959c-bdb0-42f7-95b4-711b42ea7f3e")
+	)
+	(wire
+		(pts
+			(xy 153.67 30.48) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb21593-9763-4f7e-b07a-0f459ec08428")
+	)
+	(wire
+		(pts
+			(xy 153.67 67.31) (xy 165.1 67.31)
 		)
 		(stroke
 			(width 0)
@@ -345,17 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 113.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2441edab-2fc3-46de-a001-6b2ba1715bb1")
-	)
-	(wire
-		(pts
-			(xy 57.15 106.68) (xy 113.03 106.68)
+			(xy 109.22 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -365,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 77.47) (xy 113.03 77.47)
+			(xy 153.67 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -375,7 +392,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 114.3) (xy 157.48 116.84)
+			(xy 208.28 119.38) (xy 208.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -385,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 113.03 124.46)
+			(xy 109.22 129.54) (xy 165.1 129.54)
 		)
 		(stroke
 			(width 0)
@@ -395,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 154.94 144.78)
+			(xy 203.2 149.86) (xy 205.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -405,7 +422,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 116.84) (xy 157.48 119.38)
+			(xy 208.28 121.92) (xy 208.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 114.3) (xy 113.03 114.3)
+			(xy 109.22 119.38) (xy 165.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 154.94 121.92)
+			(xy 203.2 127) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +452,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 137.16) (xy 157.48 139.7)
+			(xy 208.28 142.24) (xy 208.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 27.94) (xy 68.58 27.94)
+			(xy 109.22 33.02) (xy 120.65 33.02)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 68.58 58.42)
+			(xy 109.22 63.5) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -465,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 85.09) (xy 113.03 85.09)
+			(xy 153.67 90.17) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -475,7 +492,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 111.76) (xy 157.48 114.3)
+			(xy 208.28 116.84) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +502,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 68.58 30.48)
+			(xy 109.22 35.56) (xy 120.65 35.56)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +512,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 154.94 127)
+			(xy 203.2 132.08) (xy 205.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -505,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 111.76) (xy 154.94 111.76)
+			(xy 203.2 116.84) (xy 205.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +532,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 113.03 121.92)
+			(xy 109.22 127) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -525,7 +542,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 132.08) (xy 154.94 132.08)
+			(xy 203.2 137.16) (xy 205.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -535,7 +552,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 134.62) (xy 157.48 137.16)
+			(xy 208.28 139.7) (xy 208.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -545,7 +562,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 113.03 82.55)
+			(xy 153.67 38.1) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ca2dfd-4432-4366-b936-9f78871a6572")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 165.1 87.63)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +582,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 149.86) (xy 154.94 149.86)
+			(xy 203.2 154.94) (xy 205.74 154.94)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +592,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 109.22) (xy 157.48 111.76)
+			(xy 208.28 114.3) (xy 208.28 116.84)
 		)
 		(stroke
 			(width 0)
@@ -575,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 137.16) (xy 113.03 137.16)
+			(xy 109.22 142.24) (xy 165.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -585,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 113.03 74.93)
+			(xy 153.67 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -595,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 113.03 127)
+			(xy 109.22 132.08) (xy 165.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 154.94 137.16)
+			(xy 203.2 142.24) (xy 205.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -615,7 +642,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 154.94 124.46)
+			(xy 198.12 55.88) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b21b362-22c7-4b34-a4e5-3acbe6bfb9ad")
+	)
+	(wire
+		(pts
+			(xy 203.2 129.54) (xy 205.74 129.54)
 		)
 		(stroke
 			(width 0)
@@ -625,7 +662,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 152.4) (xy 157.48 154.94)
+			(xy 208.28 157.48) (xy 208.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 116.84) (xy 113.03 116.84)
+			(xy 109.22 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -645,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 68.58 33.02)
+			(xy 109.22 38.1) (xy 120.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -655,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 154.94 116.84)
+			(xy 203.2 121.92) (xy 205.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 119.38) (xy 113.03 119.38)
+			(xy 109.22 124.46) (xy 165.1 124.46)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +712,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 154.94 109.22)
+			(xy 203.2 114.3) (xy 205.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 111.76) (xy 113.03 111.76)
+			(xy 109.22 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +732,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 68.58 55.88)
+			(xy 109.22 60.96) (xy 120.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -703,9 +740,19 @@
 		)
 		(uuid "7f13a10f-89ba-4ff8-bd0f-b04f210d3afa")
 	)
+	(wire
+		(pts
+			(xy 195.58 55.88) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844e1775-14cb-459c-b199-65cbfd71b63d")
+	)
 	(bus
 		(pts
-			(xy 157.48 144.78) (xy 157.48 147.32)
+			(xy 208.28 149.86) (xy 208.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 114.3) (xy 154.94 114.3)
+			(xy 203.2 119.38) (xy 205.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +772,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 127) (xy 157.48 129.54)
+			(xy 208.28 132.08) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 154.94 129.54)
+			(xy 203.2 134.62) (xy 205.74 134.62)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +792,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 124.46) (xy 157.48 127)
+			(xy 208.28 129.54) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 68.58 53.34)
+			(xy 109.22 58.42) (xy 120.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 157.48) (xy 162.56 157.48)
+			(xy 210.82 162.56) (xy 213.36 162.56)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 139.7) (xy 154.94 139.7)
+			(xy 203.2 144.78) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 154.94 106.68)
+			(xy 203.2 111.76) (xy 205.74 111.76)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24) (xy 154.94 142.24)
+			(xy 203.2 147.32) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 113.03 72.39)
+			(xy 153.67 77.47) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 113.03 87.63)
+			(xy 153.67 92.71) (xy 165.1 92.71)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 43.18) (xy 68.58 43.18)
+			(xy 109.22 48.26) (xy 120.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 35.56) (xy 68.58 35.56)
+			(xy 109.22 40.64) (xy 120.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -845,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 134.62) (xy 113.03 134.62)
+			(xy 109.22 139.7) (xy 165.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 45.72) (xy 68.58 45.72)
+			(xy 109.22 50.8) (xy 120.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +912,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 121.92) (xy 157.48 124.46)
+			(xy 208.28 127) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -873,19 +920,9 @@
 		)
 		(uuid "b6098144-1c67-437a-9f53-464a5e5a993a")
 	)
-	(wire
-		(pts
-			(xy 101.6 97.79) (xy 113.03 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a1f6f6-1c14-4cc4-8907-0dcfce7e68da")
-	)
 	(bus
 		(pts
-			(xy 157.48 139.7) (xy 157.48 142.24)
+			(xy 208.28 144.78) (xy 208.28 147.32)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 113.03 90.17)
+			(xy 153.67 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 50.8) (xy 68.58 50.8)
+			(xy 109.22 55.88) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 68.58 25.4)
+			(xy 109.22 30.48) (xy 120.65 30.48)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 64.77) (xy 113.03 64.77)
+			(xy 153.67 69.85) (xy 165.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 147.32) (xy 154.94 147.32)
+			(xy 203.2 152.4) (xy 205.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 68.58 48.26)
+			(xy 109.22 53.34) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 113.03 80.01)
+			(xy 153.67 85.09) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +1002,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 129.54) (xy 113.03 129.54)
+			(xy 109.22 134.62) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +1012,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 132.08) (xy 157.48 134.62)
+			(xy 208.28 137.16) (xy 208.28 139.7)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +1022,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 119.38) (xy 154.94 119.38)
+			(xy 203.2 124.46) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 113.03 132.08)
+			(xy 109.22 137.16) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1042,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 68.58 40.64)
+			(xy 109.22 45.72) (xy 120.65 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1052,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 119.38) (xy 157.48 121.92)
+			(xy 208.28 124.46) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 59.69) (xy 113.03 59.69)
+			(xy 153.67 64.77) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 113.03 69.85)
+			(xy 153.67 74.93) (xy 165.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 113.03 92.71)
+			(xy 153.67 97.79) (xy 165.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1053,9 +1090,19 @@
 		)
 		(uuid "f6fda599-da51-4e17-9fa7-b32b1f3c91d2")
 	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 165.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85b6688-4fe9-4e53-bfd8-44917a40fefb")
+	)
 	(bus
 		(pts
-			(xy 157.48 142.24) (xy 157.48 144.78)
+			(xy 208.28 147.32) (xy 208.28 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 154.94 134.62)
+			(xy 203.2 139.7) (xy 205.74 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 38.1) (xy 68.58 38.1)
+			(xy 109.22 43.18) (xy 120.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 157.48 90)
+		(at 213.36 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1094,7 +1141,7 @@
 		(fields_autoplaced yes)
 		(uuid "89d4fd44-5fbc-48dd-acb7-66dac9f63a39")
 		(property "Reference" "#PWR024"
-			(at 168.91 157.48 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 157.4799 90)
+			(at 217.17 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 157.48 0)
+			(at 213.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 157.48 0)
+			(at 213.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 157.48 0)
+			(at 213.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1198,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 55.88)
+		(at 165.1 60.96)
 		(size 38.1 96.52)
 		(fields_autoplaced yes)
 		(stroke
@@ -1163,7 +1210,7 @@
 		)
 		(uuid "a4e31e0e-eb6c-4644-8068-b1f228eee0e3")
 		(property "Sheetname" "piezo connector"
-			(at 113.03 55.1684 0)
+			(at 165.1 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1219,7 @@
 			)
 		)
 		(property "Sheetfile" "piezo_connector.kicad_sch"
-			(at 113.03 152.9846 0)
+			(at 165.1 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1229,7 @@
 			)
 		)
 		(pin "V-_GND_CH5" input
-			(at 151.13 129.54 0)
+			(at 203.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1239,7 @@
 			(uuid "ec83ff48-38b5-4832-a52e-5df942fe2080")
 		)
 		(pin "Piezo_GND_CH5" output
-			(at 113.03 82.55 180)
+			(at 165.1 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1249,7 @@
 			(uuid "f3ea274c-8e5b-462f-8fc2-5dd863ea224a")
 		)
 		(pin "V+_GND_CH5" input
-			(at 151.13 127 0)
+			(at 203.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1259,7 @@
 			(uuid "e4c98deb-74e9-4df0-a851-b3ab619a4577")
 		)
 		(pin "Piezo_GND_CH6" output
-			(at 113.03 87.63 180)
+			(at 165.1 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1269,7 @@
 			(uuid "a29348fa-7c91-428c-b434-7c5887c8fe91")
 		)
 		(pin "Piezo_SIG_CH6" output
-			(at 113.03 85.09 180)
+			(at 165.1 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1279,7 @@
 			(uuid "5af176f7-7947-4e3b-ae7a-79d43500fa36")
 		)
 		(pin "V+_CH4" input
-			(at 113.03 121.92 180)
+			(at 165.1 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1289,7 @@
 			(uuid "36297203-af55-45c0-b66f-758aa0f7f310")
 		)
 		(pin "Piezo_GND_CH4" output
-			(at 113.03 77.47 180)
+			(at 165.1 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1299,7 @@
 			(uuid "0cb31b7c-1bc6-457d-b9d8-b503eeab371e")
 		)
 		(pin "Piezo_SIG_CH4" output
-			(at 113.03 74.93 180)
+			(at 165.1 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1309,7 @@
 			(uuid "170febb0-7ee5-426d-b123-1aaa2f00e3fe")
 		)
 		(pin "V+_GND_CH4" input
-			(at 151.13 121.92 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1319,7 @@
 			(uuid "21bb2ccb-2bf5-4192-9f56-9993e2d820fe")
 		)
 		(pin "V+_GND_CH3" input
-			(at 151.13 116.84 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1329,7 @@
 			(uuid "f5035ac5-8b2e-4480-b5d8-f2c04b287027")
 		)
 		(pin "V-_GND_CH3" input
-			(at 151.13 119.38 0)
+			(at 203.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1339,7 @@
 			(uuid "53bc7279-d017-45d6-8354-b8e5a99d967c")
 		)
 		(pin "V-_GND_CH4" input
-			(at 151.13 124.46 0)
+			(at 203.2 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1349,7 @@
 			(uuid "c261aba6-47bc-41d0-9c35-75d13acf7d6a")
 		)
 		(pin "V+_CH5" input
-			(at 113.03 127 180)
+			(at 165.1 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1359,7 @@
 			(uuid "cbc4a024-31f8-4886-a78f-3da6aa5460a5")
 		)
 		(pin "Piezo_SIG_CH5" output
-			(at 113.03 80.01 180)
+			(at 165.1 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1369,7 @@
 			(uuid "ec238c87-2b08-49ef-957f-0dadaf3c569b")
 		)
 		(pin "V+_CH6" input
-			(at 113.03 132.08 180)
+			(at 165.1 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1379,7 @@
 			(uuid "68fe7693-6127-4081-b5aa-fa1ed246f8c8")
 		)
 		(pin "V-_CH6" input
-			(at 113.03 134.62 180)
+			(at 165.1 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1389,7 @@
 			(uuid "3a004a8b-4ba4-41e7-9f64-af905c696274")
 		)
 		(pin "V+_GND_CH6" input
-			(at 151.13 132.08 0)
+			(at 203.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1399,7 @@
 			(uuid "c21409fb-91ae-4706-b3f6-4f0d9e56f02a")
 		)
 		(pin "V-_GND_CH6" input
-			(at 151.13 134.62 0)
+			(at 203.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1409,7 @@
 			(uuid "891b0d0e-2bfd-42fd-be14-ec00c1333554")
 		)
 		(pin "V-_CH1" input
-			(at 113.03 109.22 180)
+			(at 165.1 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,28 +1418,8 @@
 			)
 			(uuid "db31b81e-7bea-4845-94b5-9b53b56b9079")
 		)
-		(pin "Buzzer-" input
-			(at 151.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bedac103-9f48-4922-9412-adb732d1f99d")
-		)
-		(pin "Buzzer+" input
-			(at 151.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3f23ccc9-9913-402c-95e5-8f270e6eb6a4")
-		)
 		(pin "V-_GND_CH2" input
-			(at 151.13 114.3 0)
+			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1429,7 @@
 			(uuid "80cecb41-c065-421c-b5f0-5daee490b88c")
 		)
 		(pin "Piezo_SIG_CH3" output
-			(at 113.03 69.85 180)
+			(at 165.1 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1439,7 @@
 			(uuid "379eb35d-c9ff-413d-8ac9-5eb6648bfd4e")
 		)
 		(pin "V-_CH2" input
-			(at 113.03 114.3 180)
+			(at 165.1 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1449,7 @@
 			(uuid "5358b06b-2a1b-4142-9599-40d3f5dedee0")
 		)
 		(pin "Piezo_GND_CH3" output
-			(at 113.03 72.39 180)
+			(at 165.1 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1459,7 @@
 			(uuid "2a06755f-e606-485d-b6dc-49fabdedc827")
 		)
 		(pin "Piezo_GND_CH7" output
-			(at 113.03 92.71 180)
+			(at 165.1 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1469,7 @@
 			(uuid "2f2d7ca7-1555-401f-9be8-2f495fffc5cf")
 		)
 		(pin "V-_CH7" input
-			(at 113.03 139.7 180)
+			(at 165.1 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1479,7 @@
 			(uuid "0b29b6bb-b347-4e43-a91a-ce11e4c928da")
 		)
 		(pin "V+_GND_CH7" input
-			(at 151.13 137.16 0)
+			(at 203.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1489,7 @@
 			(uuid "7d005666-2396-47ff-b44a-1f46ca43ceb0")
 		)
 		(pin "V+_CH7" input
-			(at 113.03 137.16 180)
+			(at 165.1 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1499,7 @@
 			(uuid "f1ed999b-1f4b-4935-95e0-e51d7a5c682f")
 		)
 		(pin "Piezo_SIG_CH7" output
-			(at 113.03 90.17 180)
+			(at 165.1 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1509,7 @@
 			(uuid "2213829a-f85b-42ae-8ee5-9185c86c863e")
 		)
 		(pin "V+_GND_CH2" input
-			(at 151.13 111.76 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1519,7 @@
 			(uuid "adaf746a-4710-4015-9afe-b3b2554fef93")
 		)
 		(pin "Piezo_SIG_CH2" output
-			(at 113.03 64.77 180)
+			(at 165.1 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1529,7 @@
 			(uuid "e036149f-4aa2-41ad-99f1-1570b77a8fe6")
 		)
 		(pin "Piezo_GND_CH2" output
-			(at 113.03 67.31 180)
+			(at 165.1 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1539,7 @@
 			(uuid "9de0dbf7-eaf5-41f9-9a69-462b5bbfd35e")
 		)
 		(pin "V+_CH2" input
-			(at 113.03 111.76 180)
+			(at 165.1 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1549,7 @@
 			(uuid "ac857f2c-50ac-4e74-9709-e31f9b0f4502")
 		)
 		(pin "V-_GND_CH1" input
-			(at 151.13 109.22 0)
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1559,7 @@
 			(uuid "45c24ea1-caf8-4cc0-ae15-c565990b4772")
 		)
 		(pin "Piezo_SIG_CH1" output
-			(at 113.03 59.69 180)
+			(at 165.1 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1569,7 @@
 			(uuid "16d7181c-cda6-4e0b-be40-8ddb387329b5")
 		)
 		(pin "V+_CH1" input
-			(at 113.03 106.68 180)
+			(at 165.1 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1579,7 @@
 			(uuid "aad46cd0-5773-422b-927a-7e3a3c977660")
 		)
 		(pin "Piezo_GND_CH1" output
-			(at 113.03 62.23 180)
+			(at 165.1 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1589,7 @@
 			(uuid "89298373-e766-4471-8319-ada9ee7a162f")
 		)
 		(pin "V+_GND_CH1" input
-			(at 151.13 106.68 0)
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1599,7 @@
 			(uuid "8ced031a-a6fb-42ef-a32c-be8919013579")
 		)
 		(pin "V-_GND_CH7" input
-			(at 151.13 139.7 0)
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,27 +1609,27 @@
 			(uuid "6fbf6e4f-63ec-4a00-bd18-b1f1b9e32281")
 		)
 		(pin "Piezo_GND_CH8" output
-			(at 113.03 97.79 180)
+			(at 198.12 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "be1fe472-1d77-4fc8-a6c3-1cd3b6962679")
 		)
 		(pin "Piezo_SIG_CH8" output
-			(at 113.03 95.25 180)
+			(at 195.58 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "666f523c-770a-44d7-8adc-420ef7181cff")
 		)
 		(pin "PreAmp_Box2_GND" input
-			(at 151.13 149.86 0)
+			(at 203.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1639,7 @@
 			(uuid "f7370efe-922f-4c50-8b38-89c52d216099")
 		)
 		(pin "Shield_CH1-4" input
-			(at 151.13 142.24 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1649,7 @@
 			(uuid "f2ccde74-542e-4141-b2ed-9b6447370da9")
 		)
 		(pin "PreAmp_Box1_GND" input
-			(at 151.13 147.32 0)
+			(at 203.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1659,7 @@
 			(uuid "65f4b832-038f-410f-a47b-4824881c628d")
 		)
 		(pin "Shield_CH5-8" input
-			(at 151.13 144.78 0)
+			(at 203.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1669,7 @@
 			(uuid "a1304f00-091d-47ec-b434-35b7afee21a0")
 		)
 		(pin "V-_CH3" input
-			(at 113.03 119.38 180)
+			(at 165.1 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1679,7 @@
 			(uuid "9748ef06-ac4f-4e29-b250-d682f8ccf158")
 		)
 		(pin "V+_CH3" input
-			(at 113.03 116.84 180)
+			(at 165.1 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1689,7 @@
 			(uuid "6adca22b-45a7-446c-8e99-fef80dd593fc")
 		)
 		(pin "V-_CH4" input
-			(at 113.03 124.46 180)
+			(at 165.1 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1699,7 @@
 			(uuid "b5650980-4a82-4caa-8c0f-079241dd260b")
 		)
 		(pin "V-_CH5" input
-			(at 113.03 129.54 180)
+			(at 165.1 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,8 +1717,107 @@
 		)
 	)
 	(sheet
-		(at 26.67 19.05)
-		(size 30.48 167.64)
+		(at 165.1 25.4)
+		(size 38.1 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf84b5aa-23ef-4c07-8848-f5ca69bb0763")
+		(property "Sheetname" "ch8 connectors"
+			(at 165.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ch8_connectors.kicad_sch"
+			(at 165.1 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Piezo8_IN_GND" input
+			(at 198.12 55.88 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6ab10fa-42eb-4774-9fc4-facec1d61405")
+		)
+		(pin "Piezo8_IN" input
+			(at 195.58 55.88 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37e735b6-c297-46a1-bf6d-3f3d9b76b6b1")
+		)
+		(pin "Piezo8_V+" input
+			(at 165.1 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49be38a3-7a47-466e-87b4-4c9fc7afbf1f")
+		)
+		(pin "Piezo8_V-" input
+			(at 165.1 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d7e6c23-82c3-491d-89d9-6af83f64afcc")
+		)
+		(pin "Piezo8_OUT_GND" output
+			(at 165.1 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5af50a1e-03c2-4e7b-a89f-ccec9c494def")
+		)
+		(pin "Piezo8_OUT" output
+			(at 165.1 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "270501ef-0aeb-43d2-8c70-766c51e2e16c")
+		)
+		(instances
+			(project "piezo_fuse_box"
+				(path "/b2bf96dd-c53b-4c67-a44e-e13de2f06829"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 24.13)
+		(size 30.48 133.35)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1701,8 +1827,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d33a5d62-7e59-4acb-84cb-50fcf18db144")
-		(property "Sheetname" "front_panel"
-			(at 26.67 18.3384 0)
+		(property "Sheetname" "front_panel_and_fuses"
+			(at 78.74 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1837,7 @@
 			)
 		)
 		(property "Sheetfile" "front_panel.kicad_sch"
-			(at 26.67 187.2746 0)
+			(at 78.74 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1847,7 @@
 			)
 		)
 		(pin "V-_AMP_CH3" input
-			(at 57.15 38.1 0)
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1857,7 @@
 			(uuid "a0575d1f-0355-4967-9873-72eafe33d032")
 		)
 		(pin "V-_AMP_CH4" input
-			(at 57.15 43.18 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,8 +1866,8 @@
 			)
 			(uuid "351e468c-244f-469e-b014-bcb73015f8a5")
 		)
-		(pin "V-_PIEZO_CH3" input
-			(at 57.15 119.38 0)
+		(pin "V-_PIEZO_CH3" output
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,8 +1876,8 @@
 			)
 			(uuid "3b930b52-b7e4-433c-a27d-e6b2ec169278")
 		)
-		(pin "V-_PIEZO_CH4" input
-			(at 57.15 124.46 0)
+		(pin "V-_PIEZO_CH4" output
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,8 +1886,8 @@
 			)
 			(uuid "8bdfb733-92f5-4bb8-94d8-c6b96cdb388e")
 		)
-		(pin "V-_PIEZO_CH1" input
-			(at 57.15 109.22 0)
+		(pin "V-_PIEZO_CH1" output
+			(at 109.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1897,7 @@
 			(uuid "8fd0d29c-6931-44e2-96b0-2a34fdc7f806")
 		)
 		(pin "V-_AMP_CH2" input
-			(at 57.15 33.02 0)
+			(at 109.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1907,7 @@
 			(uuid "190e6619-92fb-4f3e-b9cd-6e8843ee3471")
 		)
 		(pin "V-_AMP_CH1" input
-			(at 57.15 27.94 0)
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,8 +1916,8 @@
 			)
 			(uuid "d33a87c5-5807-4931-a13b-aeb1a3a48348")
 		)
-		(pin "V-_PIEZO_CH2" input
-			(at 57.15 114.3 0)
+		(pin "V-_PIEZO_CH2" output
+			(at 109.22 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,8 +1926,8 @@
 			)
 			(uuid "600dd7c1-6526-4c79-8807-46cb9e12456e")
 		)
-		(pin "V+_PIEZO_CH7" input
-			(at 57.15 137.16 0)
+		(pin "V+_PIEZO_CH7" output
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1937,7 @@
 			(uuid "a8b9a889-544f-43ce-aecb-c09004a87bfc")
 		)
 		(pin "V+_AMP_CH6" input
-			(at 57.15 50.8 0)
+			(at 109.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1947,7 @@
 			(uuid "ca57479f-619a-4f94-ab8e-976e886424c7")
 		)
 		(pin "V+_AMP_CH7" input
-			(at 57.15 55.88 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,8 +1956,8 @@
 			)
 			(uuid "a6725f96-93f8-40f8-8d73-adaed62c3dc6")
 		)
-		(pin "V+_PIEZO_CH6" input
-			(at 57.15 132.08 0)
+		(pin "V+_PIEZO_CH6" output
+			(at 109.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,8 +1966,8 @@
 			)
 			(uuid "c46dca35-41e9-4175-828a-23f2ced52bf6")
 		)
-		(pin "V+_PIEZO_CH5" input
-			(at 57.15 127 0)
+		(pin "V+_PIEZO_CH5" output
+			(at 109.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,8 +1976,8 @@
 			)
 			(uuid "2904ab93-4da1-40d9-a305-e002980c9d36")
 		)
-		(pin "V+_PIEZO_CH2" input
-			(at 57.15 111.76 0)
+		(pin "V+_PIEZO_CH2" output
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,8 +1986,8 @@
 			)
 			(uuid "d7fc93d0-4d08-4256-b933-ea3c97e49345")
 		)
-		(pin "V+_PIEZO_CH1" input
-			(at 57.15 106.68 0)
+		(pin "V+_PIEZO_CH1" output
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,8 +1996,8 @@
 			)
 			(uuid "99424c78-0c37-44e4-979a-76e98efba659")
 		)
-		(pin "V-_PIEZO_CH5" input
-			(at 57.15 129.54 0)
+		(pin "V-_PIEZO_CH5" output
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2007,7 @@
 			(uuid "7ff3922e-e0b1-4956-b587-b807ffc41643")
 		)
 		(pin "V-_AMP_CH5" input
-			(at 57.15 48.26 0)
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2017,7 @@
 			(uuid "114c5b8f-f6a1-401b-bc51-fd35365b636c")
 		)
 		(pin "V-_AMP_CH6" input
-			(at 57.15 53.34 0)
+			(at 109.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +2027,7 @@
 			(uuid "2a519b62-54e4-41e4-8e8c-0cd95ba9ee0e")
 		)
 		(pin "V-_AMP_CH7" input
-			(at 57.15 58.42 0)
+			(at 109.22 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,8 +2036,8 @@
 			)
 			(uuid "9fe5df2f-42f5-4305-a27e-acc1b27c1182")
 		)
-		(pin "V-_PIEZO_CH6" input
-			(at 57.15 134.62 0)
+		(pin "V-_PIEZO_CH6" output
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,8 +2046,8 @@
 			)
 			(uuid "b05ffb9a-8d70-455a-ad3a-511fa7f299c5")
 		)
-		(pin "V-_PIEZO_CH7" input
-			(at 57.15 139.7 0)
+		(pin "V-_PIEZO_CH7" output
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +2057,7 @@
 			(uuid "09da3e04-2c19-47bb-bcc0-2eb43c72f711")
 		)
 		(pin "V+_AMP_CH4" input
-			(at 57.15 40.64 0)
+			(at 109.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2067,7 @@
 			(uuid "23d6ad28-7453-4e0b-a783-96b3728fcdf8")
 		)
 		(pin "V+_AMP_CH5" input
-			(at 57.15 45.72 0)
+			(at 109.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2077,7 @@
 			(uuid "bef09b2b-0558-4bae-b60f-807556bf2135")
 		)
 		(pin "V+_AMP_CH2" input
-			(at 57.15 30.48 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2087,7 @@
 			(uuid "a4dff48b-bf4d-462f-9976-c9d8cfd12693")
 		)
 		(pin "V+_AMP_CH1" input
-			(at 57.15 25.4 0)
+			(at 109.22 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2097,7 @@
 			(uuid "2b2fb4ad-2612-4447-a750-586bf187b079")
 		)
 		(pin "V+_AMP_CH3" input
-			(at 57.15 35.56 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,8 +2106,8 @@
 			)
 			(uuid "34c15172-ad25-4c57-9d07-61b3bd2f0f8c")
 		)
-		(pin "V+_PIEZO_CH4" input
-			(at 57.15 121.92 0)
+		(pin "V+_PIEZO_CH4" output
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,8 +2116,8 @@
 			)
 			(uuid "874065e3-bb42-4a86-8c4d-5e66eee5e697")
 		)
-		(pin "V+_PIEZO_CH3" input
-			(at 57.15 116.84 0)
+		(pin "V+_PIEZO_CH3" output
+			(at 109.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2135,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 20.32)
+		(at 120.65 25.4)
 		(size 33.02 81.28)
 		(fields_autoplaced yes)
 		(stroke
@@ -2021,7 +2147,7 @@
 		)
 		(uuid "efdfcc7f-35f8-449f-a37f-2a599a2b6d34")
 		(property "Sheetname" "amp_connectors"
-			(at 68.58 19.6084 0)
+			(at 120.65 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2156,7 @@
 			)
 		)
 		(property "Sheetfile" "amp_connectors.kicad_sch"
-			(at 68.58 102.1846 0)
+			(at 120.65 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,8 +2165,8 @@
 				(hide yes)
 			)
 		)
-		(pin "V+_CH3" input
-			(at 68.58 35.56 180)
+		(pin "V+_CH3" output
+			(at 120.65 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,8 +2175,8 @@
 			)
 			(uuid "09d08413-94b4-4678-9d68-3b71c40b692d")
 		)
-		(pin "Piezo_GND_CH3" output
-			(at 101.6 72.39 0)
+		(pin "Piezo_GND_CH3" input
+			(at 153.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,8 +2185,8 @@
 			)
 			(uuid "719d2be8-a736-4784-b66f-7ce11a0db7d8")
 		)
-		(pin "V-_CH3" input
-			(at 68.58 38.1 180)
+		(pin "V-_CH3" output
+			(at 120.65 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,8 +2195,8 @@
 			)
 			(uuid "b0350e4b-f334-42e3-a8e5-7c7cb57685c3")
 		)
-		(pin "V+_CH4" input
-			(at 68.58 40.64 180)
+		(pin "V+_CH4" output
+			(at 120.65 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,8 +2205,8 @@
 			)
 			(uuid "771b31a2-1f30-4c55-a1dd-bf7b3680e761")
 		)
-		(pin "V-_CH4" input
-			(at 68.58 43.18 180)
+		(pin "V-_CH4" output
+			(at 120.65 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,8 +2215,8 @@
 			)
 			(uuid "f03db89d-885d-427e-be1a-0b3195ed3413")
 		)
-		(pin "Piezo_GND_CH4" output
-			(at 101.6 77.47 0)
+		(pin "Piezo_GND_CH4" input
+			(at 153.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,8 +2225,8 @@
 			)
 			(uuid "112e5b62-ff83-471c-bb90-bf8c9dfe704d")
 		)
-		(pin "V-_CH1" input
-			(at 68.58 27.94 180)
+		(pin "V-_CH1" output
+			(at 120.65 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,8 +2235,8 @@
 			)
 			(uuid "8f80f2b5-7684-4547-974e-509c5f089c5d")
 		)
-		(pin "V+_CH1" input
-			(at 68.58 25.4 180)
+		(pin "V+_CH1" output
+			(at 120.65 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,8 +2245,8 @@
 			)
 			(uuid "1b7ec5a5-c637-4a09-bb83-db5d9a4459c1")
 		)
-		(pin "Piezo_GND_CH1" output
-			(at 101.6 62.23 0)
+		(pin "Piezo_GND_CH1" input
+			(at 153.67 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,8 +2255,8 @@
 			)
 			(uuid "3587cf51-5072-4501-a0e1-416d0afd9839")
 		)
-		(pin "V-_CH2" input
-			(at 68.58 33.02 180)
+		(pin "V-_CH2" output
+			(at 120.65 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,8 +2265,8 @@
 			)
 			(uuid "5de44823-c997-457e-836d-5d55028ef2a7")
 		)
-		(pin "V+_CH2" input
-			(at 68.58 30.48 180)
+		(pin "V+_CH2" output
+			(at 120.65 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,8 +2275,8 @@
 			)
 			(uuid "0267d78b-156c-45ad-8142-a47d90ed0823")
 		)
-		(pin "Piezo_GND_CH2" output
-			(at 101.6 67.31 0)
+		(pin "Piezo_GND_CH2" input
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,8 +2285,8 @@
 			)
 			(uuid "4438c201-265f-4ece-bc06-faab06ad7eec")
 		)
-		(pin "Piezo_GND_CH7" output
-			(at 101.6 92.71 0)
+		(pin "Piezo_GND_CH7" input
+			(at 153.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,8 +2295,8 @@
 			)
 			(uuid "8880649a-b08d-474f-bb40-003d52fad038")
 		)
-		(pin "V-_CH7" input
-			(at 68.58 58.42 180)
+		(pin "V-_CH7" output
+			(at 120.65 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,8 +2305,8 @@
 			)
 			(uuid "1e568f52-001f-4387-b852-a74d12de4fd0")
 		)
-		(pin "V+_CH7" input
-			(at 68.58 55.88 180)
+		(pin "V+_CH7" output
+			(at 120.65 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,8 +2315,8 @@
 			)
 			(uuid "453501b0-06c6-4f3a-8f87-dee903d5c1a9")
 		)
-		(pin "V+_CH8" input
-			(at 101.6 25.4 0)
+		(pin "V+_CH8" output
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,8 +2325,8 @@
 			)
 			(uuid "37c5519c-66dc-4d30-9aec-d410f43572f1")
 		)
-		(pin "V-_CH8" input
-			(at 101.6 27.94 0)
+		(pin "V-_CH8" output
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,8 +2335,8 @@
 			)
 			(uuid "6d2077a8-c158-4060-ab95-e14d830f0881")
 		)
-		(pin "Piezo_GND_CH8" output
-			(at 101.6 97.79 0)
+		(pin "Piezo_GND_CH8" input
+			(at 153.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,8 +2345,8 @@
 			)
 			(uuid "db9930d7-dd3c-46b7-b094-4d4fa627901e")
 		)
-		(pin "V+_CH6" input
-			(at 68.58 50.8 180)
+		(pin "V+_CH6" output
+			(at 120.65 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,8 +2355,8 @@
 			)
 			(uuid "2085b338-636f-45e2-8521-bc417fcce9c6")
 		)
-		(pin "V-_CH6" input
-			(at 68.58 53.34 180)
+		(pin "V-_CH6" output
+			(at 120.65 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,8 +2365,8 @@
 			)
 			(uuid "0be48d8f-f715-4357-bf49-2c397ce6881c")
 		)
-		(pin "Piezo_GND_CH6" output
-			(at 101.6 87.63 0)
+		(pin "Piezo_GND_CH6" input
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,8 +2375,8 @@
 			)
 			(uuid "356baa6b-558a-4620-a995-81eacf0a218d")
 		)
-		(pin "V-_CH5" input
-			(at 68.58 48.26 180)
+		(pin "V-_CH5" output
+			(at 120.65 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,8 +2385,8 @@
 			)
 			(uuid "48e0a266-6a1f-407f-a477-364ca28d94c7")
 		)
-		(pin "Piezo_GND_CH5" output
-			(at 101.6 82.55 0)
+		(pin "Piezo_GND_CH5" input
+			(at 153.67 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,8 +2395,8 @@
 			)
 			(uuid "5fc9056f-5e87-408a-90d8-7ed6d9589d6b")
 		)
-		(pin "V+_CH5" input
-			(at 68.58 45.72 180)
+		(pin "V+_CH5" output
+			(at 120.65 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,8 +2405,8 @@
 			)
 			(uuid "f96dc96a-7785-4fcd-8351-12d70c369380")
 		)
-		(pin "Piezo_SIG_CH3" output
-			(at 101.6 69.85 0)
+		(pin "Piezo_SIG_CH3" input
+			(at 153.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,8 +2415,8 @@
 			)
 			(uuid "977ce805-1fa9-4551-922c-bc8faba24286")
 		)
-		(pin "Piezo_SIG_CH2" output
-			(at 101.6 64.77 0)
+		(pin "Piezo_SIG_CH2" input
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,8 +2425,8 @@
 			)
 			(uuid "1304775d-acf0-4295-9ed9-e1ae72a021ca")
 		)
-		(pin "Piezo_SIG_CH4" output
-			(at 101.6 74.93 0)
+		(pin "Piezo_SIG_CH4" input
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,8 +2435,8 @@
 			)
 			(uuid "c377b9f9-b3c2-4c11-b225-8e66e34e8df1")
 		)
-		(pin "Piezo_SIG_CH1" output
-			(at 101.6 59.69 0)
+		(pin "Piezo_SIG_CH1" input
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,8 +2445,8 @@
 			)
 			(uuid "d0a1dc1f-c2d5-4040-b093-abf04ba27178")
 		)
-		(pin "Piezo_SIG_CH7" output
-			(at 101.6 90.17 0)
+		(pin "Piezo_SIG_CH7" input
+			(at 153.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,8 +2455,8 @@
 			)
 			(uuid "b0bbf5a7-2ab3-4d2e-8d74-9d6e4a0ab226")
 		)
-		(pin "Piezo_SIG_CH8" output
-			(at 101.6 95.25 0)
+		(pin "Piezo_SIG_CH8" input
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,8 +2465,8 @@
 			)
 			(uuid "a73de058-4ef5-4f78-b342-767318896077")
 		)
-		(pin "Piezo_SIG_CH6" output
-			(at 101.6 85.09 0)
+		(pin "Piezo_SIG_CH6" input
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,8 +2475,8 @@
 			)
 			(uuid "b437950a-0b4a-4dbd-bc0a-fbcd339c94e8")
 		)
-		(pin "Piezo_SIG_CH5" output
-			(at 101.6 80.01 0)
+		(pin "Piezo_SIG_CH5" input
+			(at 153.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

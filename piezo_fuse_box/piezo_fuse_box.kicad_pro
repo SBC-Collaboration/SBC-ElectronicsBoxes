@@ -389,7 +389,7 @@
     ],
     [
       "d33a5d62-7e59-4acb-84cb-50fcf18db144",
-      "front_panel"
+      "front_panel_and_fuses"
     ],
     [
       "efdfcc7f-35f8-449f-a37f-2a599a2b6d34",
@@ -398,6 +398,10 @@
     [
       "a4e31e0e-eb6c-4644-8068-b1f228eee0e3",
       "piezo connector"
+    ],
+    [
+      "cf84b5aa-23ef-4c07-8848-f5ca69bb0763",
+      "ch8 connectors"
     ]
   ],
   "text_variables": {}

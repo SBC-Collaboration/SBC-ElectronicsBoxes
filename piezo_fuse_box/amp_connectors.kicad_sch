@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "bbef3ceb-d3da-4c14-95db-a3827f4b8df3")
 	(paper "A4")
+	(title_block
+		(title "Piezo fuse box")
+		(date "2024-06-21")
+		(rev "v0")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
 	(lib_symbols
 		(symbol "led_driver:bayonet_6pin_piezo"
 			(exclude_from_sim no)
@@ -354,6 +361,16 @@
 			)
 		)
 		(uuid "9e1c5515-c4e3-4e11-8854-e484a6d0594a")
+	)
+	(text "Grounds are connected to the ground rail"
+		(exclude_from_sim no)
+		(at 72.898 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c92872e8-7530-41dd-9dd4-b2b30f21e70c")
 	)
 	(text "CH4\n"
 		(exclude_from_sim no)
