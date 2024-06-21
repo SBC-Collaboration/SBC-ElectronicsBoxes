@@ -562,6 +562,30 @@
     [
       "93bb29bc-d39c-4aad-a676-0e0add0aeda3",
       "Acoustics amplifier box"
+    ],
+    [
+      "58e516d7-e27d-4888-b497-8f56bd987fa1",
+      "GaGe Digitizer"
+    ],
+    [
+      "09aaead1-c729-4ced-a6c4-6614beb076a8",
+      "Switch"
+    ],
+    [
+      "32d0af69-a457-4f29-8fd0-4145903f7b59",
+      "SiPM Amps"
+    ],
+    [
+      "dc6e3224-1a19-4fa5-a52e-7d791458ad77",
+      "CAEN Digitizer"
+    ],
+    [
+      "64276ada-bd10-4f0a-80e4-c5d5e9687fcf",
+      "VJ feedthroughs"
+    ],
+    [
+      "05867add-2df4-4a9f-8c37-bb7166190050",
+      "Run Control"
     ]
   ],
   "text_variables": {}

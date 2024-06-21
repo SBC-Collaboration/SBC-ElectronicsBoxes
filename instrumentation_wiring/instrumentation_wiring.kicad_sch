@@ -11,614 +11,28 @@
 		(company "SBC")
 		(comment 1 "Zhiheng Sheng")
 	)
-	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x09_Row_Letter_Last"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x09_Row_Letter_Last"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x09, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x09_Row_Letter_Last_1_1"
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 11.43)
-					(end 3.81 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 10.287)
-					(end 2.54 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_1a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 3.81)
-					(name "Pin_1b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_2a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_2b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_3b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_4a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_4b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_5a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_5b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_6a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_7b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_8a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_8b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_9b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	(lib_symbols)
+	(no_connect
+		(at 88.9 25.4)
+		(uuid "3b60d1ee-1344-405a-92b4-4ca07658e6aa")
+	)
+	(no_connect
+		(at 88.9 27.94)
+		(uuid "ace0a1cd-4c3c-4442-9b91-7e5b8001c740")
 	)
 	(wire
 		(pts
-			(xy 179.07 31.75) (xy 199.39 31.75)
+			(xy 104.14 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f284c7-24df-4cb1-a133-2fc69ca86aba")
+	)
+	(wire
+		(pts
+			(xy 190.5 31.75) (xy 210.82 31.75)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +42,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 199.39 36.83)
+			(xy 182.88 119.38) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d59c69-b1dc-4c8b-ad9a-5430f9498920")
+	)
+	(wire
+		(pts
+			(xy 190.5 36.83) (xy 210.82 36.83)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +62,27 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 34.29) (xy 199.39 34.29)
+			(xy 104.14 33.02) (xy 107.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17f36c5-f1e8-4397-8432-e29294549e2b")
+	)
+	(wire
+		(pts
+			(xy 201.93 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b3c7c5-3d0b-412d-bb00-d8a54f988c5b")
+	)
+	(wire
+		(pts
+			(xy 190.5 34.29) (xy 210.82 34.29)
 		)
 		(stroke
 			(width 0)
@@ -668,123 +112,86 @@
 		)
 		(uuid "ec0d06cf-8e53-456b-93c5-f58c9ef1b265")
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x09_Row_Letter_Last")
-		(at 204.47 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b29d6864-5467-41f6-8b13-903e0f8fe9ec")
-		(property "Reference" "J1"
-			(at 205.74 28.448 0)
+	(sheet
+		(at 90.17 99.06)
+		(size 27.94 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05867add-2df4-4a9f-8c37-bb7166190050")
+		(property "Sheetname" "Run Control"
+			(at 90.17 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "KF40 PT26482"
-			(at 205.486 55.372 0)
+		(property "Sheetfile" "run_control.kicad_sch"
+			(at 90.17 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x09, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 204.47 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5a"
-			(uuid "0cc91caa-99bc-4b5f-96a7-ecbf5eaf6a1f")
-		)
-		(pin "6b"
-			(uuid "2a9c2ed1-c85a-46be-b8e1-0235b472f420")
-		)
-		(pin "1b"
-			(uuid "549d0343-4dda-48d6-8dcb-d3b88b373483")
-		)
-		(pin "5b"
-			(uuid "1c9cc20a-3305-4755-96be-0725ba027559")
-		)
-		(pin "4b"
-			(uuid "2138ca76-502f-4069-9a36-790a16676cc1")
-		)
-		(pin "8b"
-			(uuid "e08c781d-8f43-466b-92f7-43d96699a07f")
-		)
-		(pin "9b"
-			(uuid "4e21d4e8-74a4-473a-bf39-c7a23398f9a8")
-		)
-		(pin "9a"
-			(uuid "82100718-4a3a-44a4-9c9d-8a3011530bbf")
-		)
-		(pin "2a"
-			(uuid "fe95b2e7-0fff-4d2c-9a87-5d24c49a5ed9")
-		)
-		(pin "8a"
-			(uuid "5b8f2f13-215f-4170-8239-65127f67a078")
-		)
-		(pin "7a"
-			(uuid "3f565cb7-93dc-43d0-bf93-50d59f0de8e2")
-		)
-		(pin "3b"
-			(uuid "437075c9-c45d-4fc4-8655-cf3d51578cf7")
-		)
-		(pin "3a"
-			(uuid "4c159581-73a4-402c-9c3b-43d9dcff8b74")
-		)
-		(pin "1a"
-			(uuid "b51c9147-9096-4a84-8dd1-442dbe3bb067")
-		)
-		(pin "2b"
-			(uuid "10c07894-245a-40aa-8c44-ace7921b1e99")
-		)
-		(pin "4a"
-			(uuid "ddb90a0f-4008-41cf-87b7-3576e46d670d")
-		)
-		(pin "7b"
-			(uuid "46dfabd0-b330-45f8-b146-2c2cc1a4cfd1")
-		)
-		(pin "6a"
-			(uuid "49727758-1cdc-403c-afe7-e6bd378cd57c")
 		)
 		(instances
-			(project ""
+			(project "instrumentation_wiring"
 				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-					(reference "J1")
-					(unit 1)
+					(page "11")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 143.51 26.67)
+		(at 154.94 140.97)
+		(size 49.53 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09aaead1-c729-4ced-a6c4-6614beb076a8")
+		(property "Sheetname" "Switch"
+			(at 154.94 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 154.94 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 26.67)
 		(size 35.56 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -796,7 +203,7 @@
 		)
 		(uuid "133882cd-19c1-4705-b3ad-ec155b8583ca")
 		(property "Sheetname" "LED box"
-			(at 143.51 25.9584 0)
+			(at 154.94 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "led_box.kicad_sch"
-			(at 143.51 55.1946 0)
+			(at 154.94 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +222,7 @@
 			)
 		)
 		(pin "LED1" input
-			(at 179.07 31.75 0)
+			(at 190.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +232,7 @@
 			(uuid "56dc007f-dcc1-4288-a512-93456ec3302f")
 		)
 		(pin "LED3" input
-			(at 179.07 36.83 0)
+			(at 190.5 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +242,7 @@
 			(uuid "7abdf938-1196-4844-8ef8-2240da21438e")
 		)
 		(pin "LED2" input
-			(at 179.07 34.29 0)
+			(at 190.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +252,7 @@
 			(uuid "ac9a4ddd-3014-4266-941a-0897530d39b7")
 		)
 		(pin "PWR2" input
-			(at 143.51 34.29 180)
+			(at 154.94 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +262,7 @@
 			(uuid "d66dc81c-97a2-4645-a53f-53946fdb7f00")
 		)
 		(pin "PWR3" input
-			(at 143.51 36.83 180)
+			(at 154.94 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +272,7 @@
 			(uuid "b856801e-e9c5-4bcd-bf1c-ff9688bc4b56")
 		)
 		(pin "PWR1" input
-			(at 143.51 31.75 180)
+			(at 154.94 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +282,7 @@
 			(uuid "7eea2f37-7d0d-49ec-aaa1-04148a86b3f1")
 		)
 		(pin "Clock" input
-			(at 143.51 46.99 180)
+			(at 181.61 54.61 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +292,7 @@
 			(uuid "eaaa1b74-e57d-4623-9bad-2d05eca451aa")
 		)
 		(pin "Control" input
-			(at 143.51 49.53 180)
+			(at 154.94 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,8 +310,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 99.06)
-		(size 35.56 25.4)
+		(at 189.23 116.84)
+		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -915,7 +322,7 @@
 		)
 		(uuid "1abd7e3b-1775-402c-9f0f-ba5d7bfc5489")
 		(property "Sheetname" "Acoustics fuse box"
-			(at 144.78 98.3484 0)
+			(at 189.23 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "acous_fuse_box.kicad_sch"
-			(at 144.78 125.0446 0)
+			(at 189.23 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,6 +339,46 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "Piezo" input
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe960188-cacc-4b8a-9910-a50a2d271304")
+		)
+		(pin "Buzzer_IN" input
+			(at 189.23 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94fff19c-060c-4dbd-822b-2f6e42e8d6d6")
+		)
+		(pin "GND" input
+			(at 189.23 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b11fe1b6-b87d-47e4-8083-cc028d5d7afe")
+		)
+		(pin "Piezo_OUT" output
+			(at 189.23 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d0d1e13-c33a-44bd-aff3-aaa91e088cd5")
 		)
 		(instances
 			(project "instrumentation_wiring"
@@ -942,8 +389,8 @@
 		)
 	)
 	(sheet
-		(at 97.79 99.06)
-		(size 35.56 25.4)
+		(at 107.95 25.4)
+		(size 20.32 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -952,9 +399,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "93bb29bc-d39c-4aad-a676-0e0add0aeda3")
-		(property "Sheetname" "Acoustics amplifier box"
-			(at 97.79 98.3484 0)
+		(uuid "32d0af69-a457-4f29-8fd0-4145903f7b59")
+		(property "Sheetname" "SiPM Amps"
+			(at 107.95 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,8 +409,127 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "acous_amp_box.kicad_sch"
-			(at 97.79 125.0446 0)
+		(property "Sheetfile" "sipm_amps.kicad_sch"
+			(at 107.95 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SiPM_Group1_OUT" output
+			(at 107.95 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d2f8869-f39b-4968-ac5a-1f69eee00a14")
+		)
+		(pin "Amp1_Ethernet" bidirectional
+			(at 107.95 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcdf7caa-e3ab-4331-ad75-0ee19c0ecf5a")
+		)
+		(pin "Amp1_PWR" input
+			(at 107.95 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63438f33-3322-463e-a9c9-230f07ff614c")
+		)
+		(pin "SiPM_Group1_IN" input
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aca5075b-9cc7-4b70-9196-f55a383350cf")
+		)
+		(pin "SiPM_Group2_OUT" output
+			(at 107.95 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58cbc757-11d2-4506-a1bb-217340e20294")
+		)
+		(pin "SiPM_Group2_IN" input
+			(at 128.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ee513a2-9472-4506-9e50-1d2f5f5f7df9")
+		)
+		(pin "Amp2_Ethernet" bidirectional
+			(at 107.95 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e39a2890-d82e-4ed6-9e85-12b79a9426b5")
+		)
+		(pin "Amp2_PWR" input
+			(at 107.95 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "568251ba-e5c6-4002-91f9-06267f6ed30e")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 58.42)
+		(size 29.21 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58e516d7-e27d-4888-b497-8f56bd987fa1")
+		(property "Sheetname" "GaGe Digitizer"
+			(at 88.9 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gage_digitizer.kicad_sch"
+			(at 88.9 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,13 +541,230 @@
 		(instances
 			(project "instrumentation_wiring"
 				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 25.4)
+		(size 35.56 132.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64276ada-bd10-4f0a-80e4-c5d5e9687fcf")
+		(property "Sheetname" "VJ feedthroughs"
+			(at 210.82 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vj_feedthroughs.kicad_sch"
+			(at 210.82 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RPi3_GPIO" input
+			(at 210.82 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c422588-b7fd-496d-b4e8-569cb5545f08")
+		)
+		(pin "RPi2_GPIO" input
+			(at 210.82 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32fe4235-d2d8-41fe-8a7e-7e86a6b153fa")
+		)
+		(pin "RPi2_Ethernet" input
+			(at 210.82 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07bd84fe-dcb7-4309-90a3-a17f1fb1f573")
+		)
+		(pin "RPi3_Ethernet" input
+			(at 210.82 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70a89a4d-6f7f-402e-b834-125f91c593e6")
+		)
+		(pin "RPi1_Ethernet" input
+			(at 210.82 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "717d8c08-8a76-4f54-a6ec-f9093162ecd3")
+		)
+		(pin "RPi1_GPIO" input
+			(at 210.82 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "796ca575-14d3-4b16-a846-ef7eedec5f22")
+		)
+		(pin "LED2" input
+			(at 210.82 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5f745bc-d566-4594-b13a-b4060a11aa54")
+		)
+		(pin "LED3" input
+			(at 210.82 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2da85837-b2f3-401a-8aa4-e897f8ade0eb")
+		)
+		(pin "LED1" input
+			(at 210.82 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9694509-4155-4211-a3e4-ddcd24ae0263")
+		)
+		(pin "Piezo" output
+			(at 210.82 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2cd7771d-6ab8-4b6d-8682-d5bb9a35fd9b")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 116.84)
+		(size 12.7 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93bb29bc-d39c-4aad-a676-0e0add0aeda3")
+		(property "Sheetname" "Acoustics amplifier box"
+			(at 164.338 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "acous_amp_box.kicad_sch"
+			(at 170.18 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR_V-" input
+			(at 170.18 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ea180d9-a1f6-4e82-8952-e23638a2588c")
+		)
+		(pin "PWR_V+" input
+			(at 170.18 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3af56a12-b4cd-4a6e-a727-90182a54f89b")
+		)
+		(pin "Piezo_OUT" output
+			(at 170.18 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed9e7ce6-bdc6-40d3-bdfd-13278eefd3d7")
+		)
+		(pin "Piezo_IN" output
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "878aa51c-908d-44c3-a882-9edee36516e1")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
 					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 144.78 63.5)
+		(at 156.21 63.5)
 		(size 35.56 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -993,7 +776,7 @@
 		)
 		(uuid "c566a0c3-cc88-48aa-b0d2-116ff2ef3d37")
 		(property "Sheetname" "DIO box"
-			(at 144.78 62.7884 0)
+			(at 156.21 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +785,7 @@
 			)
 		)
 		(property "Sheetfile" "dio_box.kicad_sch"
-			(at 144.78 92.0246 0)
+			(at 156.21 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,6 +798,105 @@
 			(project "instrumentation_wiring"
 				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 20.32)
+		(size 15.24 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc6e3224-1a19-4fa5-a52e-7d791458ad77")
+		(property "Sheetname" "CAEN Digitizer"
+			(at 88.9 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "caen.kicad_sch"
+			(at 88.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SiPM_Group2" input
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac2b882c-8a65-4d7b-95fe-902dd521eb2d")
+		)
+		(pin "GPO" output
+			(at 88.9 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a27d396-5d8f-4136-9e99-a1b82ebb2d21")
+		)
+		(pin "USB" bidirectional
+			(at 88.9 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7e74058-2e87-4a6e-b478-38bff547cd1f")
+		)
+		(pin "GPI" input
+			(at 88.9 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a77b9d88-7b78-42fe-8524-b9883af133b1")
+		)
+		(pin "TRIG_IN" input
+			(at 88.9 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d13ab9f5-7655-4c8b-9dcd-9011811a88cd")
+		)
+		(pin "SiPM_Group1" input
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c9031e5-1011-4d50-a65c-476a58515f3f")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862"
+					(page "9")
 				)
 			)
 		)

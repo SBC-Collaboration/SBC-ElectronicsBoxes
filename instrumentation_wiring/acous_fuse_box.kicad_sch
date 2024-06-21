@@ -605,6 +605,78 @@
 		(at 152.4 107.95)
 		(uuid "cc4a4367-0f05-4381-b1bb-ba481f36cac3")
 	)
+	(bus_entry
+		(at 138.43 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6ab33a-4619-4478-b146-a2af8e9ef4aa")
+	)
+	(bus_entry
+		(at 138.43 55.88)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c1bbe9-98b3-4a26-bf16-564c14bf6641")
+	)
+	(bus_entry
+		(at 138.43 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5270487a-7add-4c3d-a1f0-e14cebd314c2")
+	)
+	(bus_entry
+		(at 138.43 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589eaaa7-fba7-4c27-811b-76809aaa9476")
+	)
+	(bus_entry
+		(at 138.43 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696a0827-f826-4578-8633-372fa89a685d")
+	)
+	(bus_entry
+		(at 138.43 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261741d-f0ea-419b-8d61-9b1261bc11fb")
+	)
+	(bus_entry
+		(at 138.43 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca3abc3-0b31-41bf-ac57-f8464079cc6f")
+	)
+	(bus_entry
+		(at 138.43 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daffde79-79be-4523-b067-e7d7355d02ef")
+	)
 	(wire
 		(pts
 			(xy 40.64 134.62) (xy 46.99 134.62)
@@ -625,6 +697,46 @@
 		)
 		(uuid "1541558c-558f-4c00-aacc-1c4e19c7e2ac")
 	)
+	(bus
+		(pts
+			(xy 140.97 71.12) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e74eaed-1c99-4136-8011-de64a4cd0d37")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265d0b49-9440-4b0d-99bb-d899ded8db79")
+	)
+	(bus
+		(pts
+			(xy 140.97 66.04) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b743701-4de7-4520-877b-0a698e43dc1a")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb4c336-da9a-484f-ba03-64121c15a1c0")
+	)
 	(wire
 		(pts
 			(xy 40.64 46.99) (xy 46.99 46.99)
@@ -635,6 +747,16 @@
 		)
 		(uuid "31756881-1142-46e8-a61f-d2a5b41690b0")
 	)
+	(bus
+		(pts
+			(xy 144.78 73.66) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c37dd9-9faf-473d-94c0-f44f0743859c")
+	)
 	(wire
 		(pts
 			(xy 40.64 123.19) (xy 46.99 123.19)
@@ -644,6 +766,76 @@
 			(type default)
 		)
 		(uuid "36e10497-88c6-4c3e-a9e3-0851f816f287")
+	)
+	(bus
+		(pts
+			(xy 140.97 63.5) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c44df20-d8ef-4b4b-b759-46475a8504eb")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dd3235-ff9d-42ba-8fdc-a82202506410")
+	)
+	(bus
+		(pts
+			(xy 140.97 58.42) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44936fc9-983c-4711-a3a1-33c7903b26ca")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4514a974-ad3a-47ef-af85-a882de3f6aab")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af50e36-7a0a-49be-98e3-7ad51f5f3d20")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.8) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5181bd4f-28e8-450e-a05a-f4269693358f")
+	)
+	(bus
+		(pts
+			(xy 140.97 68.58) (xy 140.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a55b942-fc20-481d-aa5b-092693c3d3fb")
 	)
 	(wire
 		(pts
@@ -665,6 +857,26 @@
 		)
 		(uuid "5f7c2bc5-8af9-4c08-8924-488b390b1ec9")
 	)
+	(bus
+		(pts
+			(xy 140.97 55.88) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b027ee0-1fc6-436d-930e-b5b77bd341bb")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae14ed3-c3ff-4795-9883-dddecbd72e4a")
+	)
 	(wire
 		(pts
 			(xy 40.64 74.93) (xy 46.99 74.93)
@@ -674,6 +886,36 @@
 			(type default)
 		)
 		(uuid "98624e74-89de-4a9a-b552-0a1ab5abd9d1")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e904ea9-3b7c-48f9-9d58-a6e67b249dd3")
+	)
+	(bus
+		(pts
+			(xy 140.97 60.96) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d035de-7510-4a88-86c6-07ca30db4a1b")
+	)
+	(bus
+		(pts
+			(xy 140.97 53.34) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0ee628-8864-401f-806e-5a0ca2989aa2")
 	)
 	(wire
 		(pts
@@ -857,54 +1099,6 @@
 		)
 		(uuid "1ee1ca80-a8bd-45eb-83d5-b95c1b6503a0")
 	)
-	(hierarchical_label "Piezo5_OUT"
-		(shape output)
-		(at 134.62 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3598af89-d64b-4b9a-82d3-1eefbfdffb73")
-	)
-	(hierarchical_label "Piezo8_OUT"
-		(shape output)
-		(at 134.62 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6144a914-44e2-48f6-9b87-8946f7b2c0a9")
-	)
-	(hierarchical_label "Piezo3_OUT"
-		(shape output)
-		(at 134.62 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70468be6-5288-49c3-8330-fdd19762ce4f")
-	)
-	(hierarchical_label "Piezo4_OUT"
-		(shape output)
-		(at 134.62 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77588565-6e0b-4147-ba50-1190643310c7")
-	)
 	(hierarchical_label "Piezo"
 		(shape input)
 		(at 135.89 120.65 0)
@@ -916,18 +1110,6 @@
 			(justify left)
 		)
 		(uuid "8ab519be-be2d-42d0-bafd-476afda4419d")
-	)
-	(hierarchical_label "Piezo7_OUT"
-		(shape output)
-		(at 134.62 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a583ce9b-fcb9-481a-8d76-9d504a5fb172")
 	)
 	(hierarchical_label "Buzzer_IN"
 		(shape input)
@@ -941,9 +1123,9 @@
 		)
 		(uuid "a8109322-f628-432d-a830-0aa282aa08a5")
 	)
-	(hierarchical_label "Piezo1_OUT"
+	(hierarchical_label "Piezo_OUT"
 		(shape output)
-		(at 134.62 50.8 0)
+		(at 144.78 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -951,31 +1133,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b2199ec5-3176-4c60-a247-f6e70078215d")
-	)
-	(hierarchical_label "Piezo2_OUT"
-		(shape output)
-		(at 134.62 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c14f19a0-856f-4313-ada2-e7c6b9bd2a45")
-	)
-	(hierarchical_label "Piezo6_OUT"
-		(shape output)
-		(at 134.62 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcb0a698-29c6-44dc-9c5f-8a369e60c30e")
+		(uuid "d4d80e2c-c0d8-4122-b8eb-d4bdfdd8e576")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
