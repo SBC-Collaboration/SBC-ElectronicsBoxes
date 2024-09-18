@@ -396,7 +396,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "led_driver"
+    ]
   },
   "meta": {
     "filename": "instrumentation_wiring.kicad_pro",
@@ -548,44 +550,60 @@
       "Root"
     ],
     [
-      "133882cd-19c1-4705-b3ad-ec155b8583ca",
-      "LED box"
-    ],
-    [
-      "c566a0c3-cc88-48aa-b0d2-116ff2ef3d37",
-      "DIO box"
-    ],
-    [
-      "1abd7e3b-1775-402c-9f0f-ba5d7bfc5489",
-      "Acoustics fuse box"
-    ],
-    [
-      "93bb29bc-d39c-4aad-a676-0e0add0aeda3",
+      "f37b9c91-4b1b-4c1a-bf7f-abcaa93b8b19",
       "Acoustics amplifier box"
     ],
     [
-      "58e516d7-e27d-4888-b497-8f56bd987fa1",
+      "40a78249-260c-4c40-ba4f-b9c9deb21b6a",
+      "Acoustics fuse box"
+    ],
+    [
+      "242ba259-c20e-44fe-b666-c6ac98ae03ad",
+      "CAEN Digitizer"
+    ],
+    [
+      "e9c3acbf-c238-4689-a657-536e00cb2327",
+      "DIO box"
+    ],
+    [
+      "20bb0c0f-0b15-45c6-8805-5560637bda7b",
       "GaGe Digitizer"
     ],
     [
-      "09aaead1-c729-4ced-a6c4-6614beb076a8",
+      "1f0b89ff-a093-4815-9b0b-1aaa51d270df",
       "Switch"
     ],
     [
-      "32d0af69-a457-4f29-8fd0-4145903f7b59",
-      "SiPM Amps"
+      "713960b0-89dc-4115-a35c-383d3ec87595",
+      "LED box"
     ],
     [
-      "dc6e3224-1a19-4fa5-a52e-7d791458ad77",
-      "CAEN Digitizer"
+      "bb681547-731b-4339-ac5d-8d1dc049ab56",
+      "SiPM Amps"
     ],
     [
       "64276ada-bd10-4f0a-80e4-c5d5e9687fcf",
       "VJ feedthroughs"
     ],
     [
-      "05867add-2df4-4a9f-8c37-bb7166190050",
-      "Run Control"
+      "8cace286-c121-4949-aeee-8d3608c3d776",
+      "DAQ PC"
+    ],
+    [
+      "22e05960-1e32-4e7e-977b-a6c927976b27",
+      "Rack"
+    ],
+    [
+      "1e667f04-a909-4ae6-8622-8912619cbc74",
+      "Cart"
+    ],
+    [
+      "0455d5c7-30e0-44ff-b454-c5f74a839c71",
+      "PLC"
+    ],
+    [
+      "d54611e0-6afe-4059-974c-235a1b273f20",
+      "Rack Protection"
     ]
   ],
   "text_variables": {}

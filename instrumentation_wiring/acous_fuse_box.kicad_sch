@@ -1144,7 +1144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "073d9380-017e-476e-a521-76c9935ab64b")
-		(property "Reference" "J32"
+		(property "Reference" "J10"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -1189,12 +1189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a699d687-9abb-438c-8c67-61bfe942c970")
+			(uuid "c5a8bc09-5f91-4218-bda9-909ddb2ac970")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J32")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1209,7 +1209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15910385-8559-4d66-8b38-b715a77f52cb")
-		(property "Reference" "J30"
+		(property "Reference" "J8"
 			(at 35.56 83.82 0)
 			(effects
 				(font
@@ -1254,12 +1254,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "07fca9e6-03fe-4de2-a8c5-b626db689159")
+			(uuid "e807a211-ba5e-457d-9c63-bdc70ca9937b")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J30")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1797f840-6066-4dc8-97d4-52b7b0a66e67")
-		(property "Reference" "J34"
+		(property "Reference" "J12"
 			(at 35.56 130.81 0)
 			(effects
 				(font
@@ -1319,12 +1319,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90380bfc-80c3-4d1a-b4df-df44cf8382fe")
+			(uuid "9562a5a5-010c-4462-93eb-19dfcbf41c08")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J34")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1339,7 +1339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "312ff758-7c0d-4e73-affa-babfe0432185")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 52.324 119.126 0)
 			(effects
 				(font
@@ -1384,15 +1384,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e01fc98-f5d6-4ea3-8df5-7a1d156c1438")
+			(uuid "7632e1e0-2917-40cf-81c9-3c1d029a8914")
 		)
 		(pin "2"
-			(uuid "e582a750-a8af-4518-9877-5def8856f03e")
+			(uuid "d83ffadb-52d4-4e05-ad8a-6ff564878ff4")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW8")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -1407,7 +1407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3990a653-986d-4aef-9a11-6c4cb98bdc97")
-		(property "Reference" "J33"
+		(property "Reference" "J11"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -1452,12 +1452,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae5491f9-f13e-4ba3-99f3-b1415cd1bf57")
+			(uuid "83df2f83-9864-4657-972b-771cb31a89ed")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J33")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1472,7 +1472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d6c594d-63ac-4215-b3c7-53d3fc5cf675")
-		(property "Reference" "J31"
+		(property "Reference" "J9"
 			(at 35.56 95.25 0)
 			(effects
 				(font
@@ -1517,12 +1517,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a46a0d1-968f-4c0b-a56c-6e98ed605035")
+			(uuid "19290c1e-80ae-4b6b-96c7-aea9b913d416")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J31")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1537,7 +1537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42180815-aae7-4183-ab9c-f09f5c9eaa2f")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 52.324 70.866 0)
 			(effects
 				(font
@@ -1582,15 +1582,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6994e88-ef40-4ba6-a8e3-96413abae5cf")
+			(uuid "7a79b966-a1de-4e40-9c64-a3b22b88fed3")
 		)
 		(pin "2"
-			(uuid "5819442a-999c-41d6-ac61-1c5af6f366bb")
+			(uuid "4f2ac172-cd28-496c-979a-e6e50227b952")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW4")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f1efec-9f0e-4d2a-b16a-b1ba7f78a840")
-		(property "Reference" "J14"
+		(property "Reference" "J16"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -1650,12 +1650,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f72aa7ff-c198-492a-a914-7023e8ad835c")
+			(uuid "000c12c0-8c32-4e21-9dc4-875a29cafffe")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J14")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1670,7 +1670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85fbc742-772f-4df5-a34a-4f3852d1043c")
-		(property "Reference" "J27"
+		(property "Reference" "J5"
 			(at 35.56 43.18 0)
 			(effects
 				(font
@@ -1715,12 +1715,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc4ec2f0-07f8-413d-991e-05629136af90")
+			(uuid "e1c3237b-59f4-4ca3-8b93-85181a995c46")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J27")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8947b60b-e7a6-42c2-b78f-236e51e3e0fc")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 52.324 42.926 0)
 			(effects
 				(font
@@ -1780,15 +1780,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a2760bc-0c9a-494f-a43c-8a8b0a84d128")
+			(uuid "ae62b371-dbe5-4ff0-adbb-9ba0467a2b01")
 		)
 		(pin "2"
-			(uuid "7f6dba11-7e94-4d07-a0c6-96539a208498")
+			(uuid "c56884b2-75bc-4937-a61b-390ff7d828df")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW2")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1803,7 +1803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "943b6f16-fd34-43e0-8f3b-e1580a284c1c")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 52.324 83.566 0)
 			(effects
 				(font
@@ -1848,15 +1848,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ef2d229-968b-44de-a810-83beeb88a187")
+			(uuid "5709db2c-daaa-4038-badf-375b8420e7a4")
 		)
 		(pin "2"
-			(uuid "c78640cb-85cc-4292-9c8d-04a84d3af3e0")
+			(uuid "2e041777-2254-4857-91d7-4c9a7d9ba3c5")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW5")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5c8fb3e-6592-4dbc-aa55-416bd4f2e423")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 52.324 130.556 0)
 			(effects
 				(font
@@ -1916,15 +1916,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b66a8149-9346-44cc-b57a-ca5ba306a8cf")
+			(uuid "8ccfe82b-1cee-4a03-aa46-4b76a4ab2bc3")
 		)
 		(pin "2"
-			(uuid "96637838-1e44-482b-9597-b1a86ec9b088")
+			(uuid "e7214d8d-c944-45f2-8bd5-00bcefd0ca12")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW9")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -1939,7 +1939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a98edead-384c-4cf5-a5e0-0cd191f6a789")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 130.81 78.74 0)
 			(effects
 				(font
@@ -1984,12 +1984,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "53e557cf-b67b-4232-aafb-be0f8e601662")
+			(uuid "810ee393-d6cb-4794-99aa-163839b195e1")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J15")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa1c0621-2162-4d84-8b10-46c60a4d22df")
-		(property "Reference" "J29"
+		(property "Reference" "J7"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -2049,12 +2049,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fc25e36-f95d-4fee-8181-7612964695da")
+			(uuid "0317e389-bbed-444e-a5a3-efb06293510a")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J29")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab4d8e80-7af2-40e8-962a-c20889a97a0e")
-		(property "Reference" "J8"
+		(property "Reference" "J13"
 			(at 129.54 47.498 0)
 			(effects
 				(font
@@ -2115,33 +2115,33 @@
 			)
 		)
 		(pin "8"
-			(uuid "1afb5170-f963-4374-b893-7882eefcc416")
+			(uuid "5dcddb7c-98ce-478f-9936-62ef00fa7521")
 		)
 		(pin "4"
-			(uuid "f678361f-60b5-4b26-87d2-83e3fc6fe684")
+			(uuid "7ee94930-f29c-4571-8ba4-801e893dbf46")
 		)
 		(pin "7"
-			(uuid "aab4bfe5-6c93-4a91-b70a-8a1756a84299")
+			(uuid "ddffd2fa-df84-464a-9d43-0249bd3269f3")
 		)
 		(pin "2"
-			(uuid "74da16de-53d6-4bea-b295-4b56285f2753")
+			(uuid "3fb6515b-7e52-474a-bdcb-905e04393278")
 		)
 		(pin "3"
-			(uuid "6a607e91-6066-48ae-8168-44e800a1d1d6")
+			(uuid "a6698a63-283a-44b5-ad9f-7b760629cf6e")
 		)
 		(pin "1"
-			(uuid "f9b8ace3-49a5-4ea6-ad47-ade4c3281ff7")
+			(uuid "deaad186-c507-4455-b530-c2609fb4a9e7")
 		)
 		(pin "5"
-			(uuid "a883088f-a344-491b-8845-e4f8c53e5ced")
+			(uuid "43692413-daa8-437a-854c-580eac481f43")
 		)
 		(pin "6"
-			(uuid "98734032-68b5-47ac-a5fa-8fbac69c05be")
+			(uuid "fdd2668f-7496-4c14-a627-d0d9da83e461")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J8")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -2156,7 +2156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc8f82e-1bd5-4a4d-a07d-38968f30a793")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 52.324 56.896 0)
 			(effects
 				(font
@@ -2201,15 +2201,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4580422e-5d1f-4b16-a1c7-6f4c102db1c1")
+			(uuid "8b3311db-7c03-4c6f-b309-400087a389de")
 		)
 		(pin "2"
-			(uuid "18dca7e4-5030-4cd8-86eb-37f99fc43582")
+			(uuid "3c2b881d-1219-4416-a66f-e9aa0dd42692")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW3")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b47feea3-f348-43ef-bc9c-a21b95bc0153")
-		(property "Reference" "SW1"
+		(property "Reference" "SW9"
 			(at 147.574 103.886 0)
 			(effects
 				(font
@@ -2269,15 +2269,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f4c8487-b5f6-479f-84da-8c20759f9d74")
+			(uuid "e365e252-906d-4e22-9062-6b64a1bec55d")
 		)
 		(pin "2"
-			(uuid "fc24bdcd-4bc8-419d-9e63-e09fd63316b8")
+			(uuid "f7a294ae-1131-4603-bf23-1042bd17b73d")
 		)
 		(instances
-			(project ""
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW1")
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbb9ceea-c5af-43ce-8a83-b536c4070a66")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 52.324 94.996 0)
 			(effects
 				(font
@@ -2337,15 +2337,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e969240e-dea9-4c23-9cb0-939488d77c84")
+			(uuid "864f4083-06c2-4437-b3c9-521167758efb")
 		)
 		(pin "2"
-			(uuid "5c13b241-e738-4510-9beb-e2ca6727f454")
+			(uuid "252ca75d-0c0d-4e56-8912-a9402b1f6b5c")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW6")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3611a6c-9594-424a-808b-0f52379beec9")
-		(property "Reference" "J16"
+		(property "Reference" "J17"
 			(at 130.81 116.84 0)
 			(effects
 				(font
@@ -2405,12 +2405,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "11944eff-be29-4cae-9800-f45f395549e9")
+			(uuid "d019127f-ddac-43b1-9510-7f806d65a3e4")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J16")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7623c29-8ade-4539-bf0e-5a854e3269f8")
-		(property "Reference" "J9"
+		(property "Reference" "J15"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -2470,12 +2470,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "db7aae57-e9ec-40f9-9f94-20d8cd727553")
+			(uuid "7b217422-7a16-4854-9e4d-e0387a1cc214")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J9")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2490,7 +2490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc23308f-edc4-4db1-aecf-bc7398a7d3d2")
-		(property "Reference" "J28"
+		(property "Reference" "J6"
 			(at 35.56 57.15 0)
 			(effects
 				(font
@@ -2535,12 +2535,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2a747a9-d8de-4f22-a6bf-2d768cc1afc9")
+			(uuid "3f0f4559-bc0b-49fd-a95e-8329b7cfc95f")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "J28")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fffeaeb1-0b77-484b-a082-85b3e402859f")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 52.324 107.696 0)
 			(effects
 				(font
@@ -2600,15 +2600,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0b53dd9-5d75-4456-83db-7f9bd4b1e418")
+			(uuid "8421378a-505f-4d29-9964-16cffd7cc6f1")
 		)
 		(pin "2"
-			(uuid "a021c1f1-854c-4571-b448-e4b2b27454ac")
+			(uuid "de272412-7747-4ccb-bf23-b3ee297af2d3")
 		)
 		(instances
 			(project "instrumentation_wiring"
-				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1abd7e3b-1775-402c-9f0f-ba5d7bfc5489"
-					(reference "SW7")
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/22e05960-1e32-4e7e-977b-a6c927976b27/40a78249-260c-4c40-ba4f-b9c9deb21b6a"
+					(reference "SW6")
 					(unit 1)
 				)
 			)

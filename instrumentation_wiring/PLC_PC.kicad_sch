@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ea7e4469-6a56-4ca6-9173-d80bb0c80444")
+	(paper "A4")
+	(title_block
+		(title "Instrumentation wiring drawing")
+		(date "2024-06-21")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
+	(lib_symbols)
+)

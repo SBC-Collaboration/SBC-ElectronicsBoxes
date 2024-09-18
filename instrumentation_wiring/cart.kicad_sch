@@ -1,0 +1,1056 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5b86d7cb-1a88-445c-9979-7830e601fb34")
+	(paper "A4")
+	(title_block
+		(title "Instrumentation wiring drawing")
+		(date "2024-06-21")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
+	(lib_symbols
+		(symbol "led_driver:PC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PC_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PC_1_1"
+				(pin bidirectional line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "ETH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "PCIe"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "led_driver:UPS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UPS_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UPS_1_1"
+				(text "UPS"
+					(at 0 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "Backup"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "GP1(15A)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "GP2(20A)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "GP3(15A)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.95 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8824ba5d-4274-4435-91c7-6767af3b323d")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad4e062-473f-40c8-9744-9397956a6ff4")
+	)
+	(wire
+		(pts
+			(xy 86.36 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f4dbbe-7f75-4353-9e39-bc6a386cb2cc")
+	)
+	(wire
+		(pts
+			(xy 125.73 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a534f3-617c-4624-b1ce-28aad8966ca2")
+	)
+	(wire
+		(pts
+			(xy 107.95 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdc1c08-e4a8-485d-bd62-4e8c0de09a3e")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd5cd46-1d9c-4566-9712-402968f47864")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcd7687-5fbc-4976-bd78-873a3ab91baa")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74eae0db-8710-4453-ab31-7a0cd61e6260")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9ac0cd-c2ca-4f0e-849a-619de9f2ca2b")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 97.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f45f6b-9621-447e-bc44-bbda4c38bb5b")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 90.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6e73cd-ac7a-4ed2-b789-14be7b32446c")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 95.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9296ae94-705a-4c53-9f94-3c688bb2da8d")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ee5a39-e783-46bd-a342-59bfd2a038ab")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f0a427-abe3-4644-9266-e8b55021ca17")
+	)
+	(wire
+		(pts
+			(xy 90.17 99.06) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e3d4e5-f2f2-4b10-b8d4-bc97e9a7c086")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 125.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61a2786-3259-4e7a-96b7-ce0114ebd19c")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbf9b31-0a8c-429e-9b02-051a0fee5145")
+	)
+	(text "PLC PC"
+		(exclude_from_sim no)
+		(at 80.01 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d7e26a2-b689-43a4-983a-2e6dcddb878b")
+	)
+	(text "PLC UPS"
+		(exclude_from_sim no)
+		(at 140.97 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba5b71a0-5c80-46c7-bcd4-5d8e5e253ab9")
+	)
+	(text "DAQ UPS"
+		(exclude_from_sim no)
+		(at 139.7 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7193a9b-c2cf-4df4-a50f-f1b99f804ab0")
+	)
+	(text "slow control PC"
+		(exclude_from_sim no)
+		(at 68.58 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f333bad7-e32d-45de-96b8-9e913ae0a24c")
+	)
+	(hierarchical_label "PLC_Eth"
+		(shape bidirectional)
+		(at 97.79 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2129852b-57b7-40db-be73-81f926792f87")
+	)
+	(hierarchical_label "Cam1_Eth"
+		(shape bidirectional)
+		(at 120.65 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a362435-bdaa-4301-8f46-e005b86bd604")
+	)
+	(hierarchical_label "Cam3_Eth"
+		(shape bidirectional)
+		(at 120.65 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a3aaf84-ef5d-4eca-91f8-cedee9ec07da")
+	)
+	(hierarchical_label "Cam2_Eth"
+		(shape bidirectional)
+		(at 120.65 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "640fd3f8-7e3f-4d50-9988-98b865bf81a5")
+	)
+	(hierarchical_label "Amp2_Eth"
+		(shape bidirectional)
+		(at 97.79 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76c396bd-2d29-4a44-adec-3865e7b92ee6")
+	)
+	(hierarchical_label "DAQ_PWR"
+		(shape output)
+		(at 104.14 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3120ef-a786-46b1-96aa-1fa00a089bbf")
+	)
+	(hierarchical_label "PLC_PWR"
+		(shape input)
+		(at 133.35 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3f08480-513c-4ae9-8bc3-a74352148d19")
+	)
+	(hierarchical_label "Amp1_Eth"
+		(shape bidirectional)
+		(at 97.79 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db79f8d8-deea-4337-bb60-e7e56be7715b")
+	)
+	(hierarchical_label "Pos_Eth"
+		(shape bidirectional)
+		(at 97.79 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9576b54-3f1b-4950-859d-62ad45056aec")
+	)
+	(symbol
+		(lib_name "led_driver:UPS")
+		(lib_id "led_driver:UPS")
+		(at 140.97 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668ec741-0946-4722-8838-067a41dd3502")
+		(property "Reference" "J75"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1d1b0849-ec86-44a1-9d3d-21babf834c77")
+		)
+		(pin ""
+			(uuid "f1c86103-9b07-4e2a-8f87-e0ee1ac8b8fb")
+		)
+		(pin ""
+			(uuid "a2eee6eb-43f6-444d-9945-7c71609981f8")
+		)
+		(pin ""
+			(uuid "e5d83518-578d-4d9d-95d1-124ccd94421b")
+		)
+		(instances
+			(project ""
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1e667f04-a909-4ae6-8622-8912619cbc74"
+					(reference "J75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "led_driver:PC")
+		(lib_id "led_driver:PC")
+		(at 80.01 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8de7ada7-5825-4825-976c-420848103274")
+		(property "Reference" "U2"
+			(at 80.01 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "aa482b89-354c-495a-a0e3-ae4c22781f48")
+		)
+		(pin ""
+			(uuid "1d147374-7800-4036-b7cc-9c9305c30cfa")
+		)
+		(pin ""
+			(uuid "02d5729c-85c2-4025-88c3-7579ed8a91a2")
+		)
+		(pin ""
+			(uuid "ca9149c3-9feb-4957-af20-7057b1c8b243")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1e667f04-a909-4ae6-8622-8912619cbc74"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "led_driver:UPS")
+		(lib_id "led_driver:UPS")
+		(at 139.7 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d03dba6c-ff2b-4e46-9992-b31637f1999f")
+		(property "Reference" "J76"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3d104fab-2e42-45c8-b9de-b99d823a8e07")
+		)
+		(pin ""
+			(uuid "3ad77a03-fb94-4d12-9410-a4e17f88e983")
+		)
+		(pin ""
+			(uuid "acbe2fe0-6e9d-4976-9a1e-607cbcbf8d27")
+		)
+		(pin ""
+			(uuid "73a7caff-c6cd-4423-aeb9-fe0901ac4ae2")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1e667f04-a909-4ae6-8622-8912619cbc74"
+					(reference "J76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:PC")
+		(at 68.58 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da8e1f45-6dec-44e2-bf12-112060efb6ac")
+		(property "Reference" "U1"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b335913c-ffc6-4d5c-b36e-e324dbb140ca")
+		)
+		(pin ""
+			(uuid "c079ff5b-ca78-4212-962f-87fcd756f081")
+		)
+		(pin ""
+			(uuid "d9bc5b30-4cb1-45ca-9fe4-1959a4ce8eef")
+		)
+		(pin ""
+			(uuid "2e102f7c-37f7-4e0e-97f3-f180a02c0375")
+		)
+		(instances
+			(project ""
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1e667f04-a909-4ae6-8622-8912619cbc74"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 49.53)
+		(size 22.86 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f0b89ff-a093-4815-9b0b-1aaa51d270df")
+		(property "Sheetname" "Switch"
+			(at 97.79 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 97.79 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SiPMAmp1" bidirectional
+			(at 97.79 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d740fb8-bcc5-4ba1-af0c-e0e01df21128")
+		)
+		(pin "SiPMAmp2" bidirectional
+			(at 97.79 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f9431c8-4cdd-47a8-bb71-23fbe4b2e7bb")
+		)
+		(pin "Cam2" bidirectional
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd3fc9f4-9d75-4ad0-b5e0-9a15ef1b6185")
+		)
+		(pin "SlowControl" bidirectional
+			(at 97.79 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6507abef-b841-4452-bdc2-f8bc1e2b8ca3")
+		)
+		(pin "PLC" bidirectional
+			(at 97.79 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94e8e402-a6f7-4b25-961f-1026b40070e8")
+		)
+		(pin "Cam1" bidirectional
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d08ef5d-7344-4140-89b5-9acfda5277b4")
+		)
+		(pin "Cam3" bidirectional
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0faaeb4-48f0-4923-9dc9-f079a1c94e90")
+		)
+		(pin "PosArduino" bidirectional
+			(at 97.79 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d6fb79a-1c59-4d95-b591-dfdcc988033c")
+		)
+		(pin "PWR" input
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "868bbdd0-90fa-4a3f-9875-b39460f477aa")
+		)
+		(pin "PLC_PC" bidirectional
+			(at 97.79 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba110a90-77fc-49a0-a044-dc1f5c07e6fe")
+		)
+		(pin "DAQ_PC" bidirectional
+			(at 97.79 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "133773ee-7df7-4580-b1b8-2db59f070b1d")
+		)
+		(instances
+			(project "instrumentation_wiring"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/1e667f04-a909-4ae6-8622-8912619cbc74"
+					(page "7")
+				)
+			)
+		)
+	)
+)
