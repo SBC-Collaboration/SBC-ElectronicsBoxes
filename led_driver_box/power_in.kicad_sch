@@ -1,501 +1,1411 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 7c97d187-0859-44cc-8e4e-21c8971ca80c)
-
-  (paper "A4")
-
-  (title_block
-    (title "LED Driver Box")
-    (date "2023-07-19")
-    (company "SBC")
-    (comment 1 "Zhiheng Sheng")
-  )
-
-  (lib_symbols
-    (symbol "led_driver:barrel_jack" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "barrel_jack" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "barrel_jack_0_1"
-        (rectangle (start -2.54 -2.54) (end 2.54 2.54)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "barrel_jack_1_1"
-        (pin input line (at 5.08 -1.27 180) (length 2.54)
-          (name "NEG" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 5.08 1.27 180) (length 2.54)
-          (name "POS" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "led_driver:bayonet_10pin" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "bayonet_10pin_0_1"
-        (rectangle (start -2.54 12.7) (end 2.54 -12.7)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "bayonet_10pin_1_1"
-        (pin passive line (at 5.08 11.43 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -11.43 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 8.89 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 6.35 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -6.35 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -8.89 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "led_driver:bayonet_4pin" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "bayonet_4pin_0_1"
-        (rectangle (start -2.54 5.08) (end 2.54 -5.08)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "bayonet_4pin_1_1"
-        (pin passive line (at 5.08 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (text "DB9 connector\nAssmann A-DS 09 LL/Z" (at 50.8 20.32 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9d24035a-e546-45d3-8b2a-016786766943)
-  )
-  (text "barrel jacks x3\nschurter 4840.2200" (at 25.4 22.86 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a58325db-8f85-461c-aece-dc29b21cc061)
-  )
-  (text "DB15 connector\nNorcomp 171-015-103L001" (at 76.2 21.59 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid facc349d-f335-49bb-a0eb-8287cc899acd)
-  )
-
-  (hierarchical_label "CTRL1" (shape input) (at 58.42 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0a072de2-b997-4f53-bdc9-42bc963d46b9)
-  )
-  (hierarchical_label "V-3" (shape input) (at 58.42 52.07 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 14009789-d9bb-4810-9179-581d2d764cb1)
-  )
-  (hierarchical_label "V-1" (shape input) (at 58.42 26.67 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1566adf5-58f3-4ebb-aedf-4b062f649e3b)
-  )
-  (hierarchical_label "ENBL1.3" (shape input) (at 83.82 34.29 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1db5d8e6-b664-4cbe-8eed-e5b36b9ba3db)
-  )
-  (hierarchical_label "GND_V+1" (shape input) (at 33.02 31.75 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1eca4546-ece0-49f1-a9ab-46c5a79eaeb9)
-  )
-  (hierarchical_label "V+2" (shape input) (at 33.02 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 313a1617-d53b-4f2c-8125-05b5571822be)
-  )
-  (hierarchical_label "V-2" (shape input) (at 58.42 39.37 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3f6d1f7c-4ddd-4362-a1a5-20be30be9ce0)
-  )
-  (hierarchical_label "GND_CTRL" (shape input) (at 58.42 71.12 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 443be6e6-1af5-4bbc-8464-2c08b8962fad)
-  )
-  (hierarchical_label "GND_V-1" (shape input) (at 58.42 29.21 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 53d34698-3319-4bca-9104-d11dc945ea2e)
-  )
-  (hierarchical_label "GND_V+2" (shape input) (at 33.02 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 54fa4460-61b3-4535-aa59-28ea9e985b44)
-  )
-  (hierarchical_label "GND_V+3" (shape input) (at 33.02 57.15 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 668fa387-0542-4fa7-a015-748b26a09d7c)
-  )
-  (hierarchical_label "CTRL3" (shape input) (at 58.42 68.58 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 74a752d6-1044-4a7f-ab86-ebe5c5e11037)
-  )
-  (hierarchical_label "ENBL1.2" (shape input) (at 83.82 31.75 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 76d4510c-af3e-4315-89b1-c7505b318edd)
-  )
-  (hierarchical_label "ENBL1.1" (shape input) (at 83.82 29.21 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7d7d212e-d93c-4b9f-9a16-8d3606da7fcb)
-  )
-  (hierarchical_label "CTRL2" (shape input) (at 58.42 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8dc1545d-5234-4863-ac86-e48408d6a031)
-  )
-  (hierarchical_label "ENBL3.2" (shape input) (at 83.82 46.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8e014a35-fe5b-4ebe-9509-2a0be67cbb65)
-  )
-  (hierarchical_label "ENBL2.3" (shape input) (at 83.82 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8fb1ea42-92f3-45fd-b7dc-6cf34a993298)
-  )
-  (hierarchical_label "GND_V-3" (shape input) (at 58.42 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9c92764a-0d41-4d7f-ab91-2216a3a527cf)
-  )
-  (hierarchical_label "ENBL2.1" (shape input) (at 83.82 36.83 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ba351258-e263-4c33-a3c1-ab780a368f7f)
-  )
-  (hierarchical_label "ENBL3.3" (shape input) (at 83.82 49.53 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bdddb13f-9a0e-44d4-bdf0-6d86840617d1)
-  )
-  (hierarchical_label "V+3" (shape input) (at 33.02 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid cf5330d5-4156-415b-bbea-f8b1e7fc3b1b)
-  )
-  (hierarchical_label "GND_ENBL" (shape input) (at 83.82 52.07 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d2b6b68a-885a-4397-a09e-366bef9ae142)
-  )
-  (hierarchical_label "ENBL3.1" (shape input) (at 83.82 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e0758d48-2db9-4962-adcf-d50e8cc32cfa)
-  )
-  (hierarchical_label "V+1" (shape input) (at 33.02 29.21 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fa6a02a7-b754-40f4-a518-9cbd31c65c6d)
-  )
-  (hierarchical_label "GND_V-2" (shape input) (at 58.42 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fe642fd9-68f7-4ac9-91ae-baca375d961d)
-  )
-  (hierarchical_label "ENBL2.2" (shape input) (at 83.82 39.37 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ff0f6695-6e92-49f4-b28f-7e4b0f356feb)
-  )
-
-  (symbol (lib_id "led_driver:bayonet_4pin") (at 53.34 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 038e7073-947d-493c-8388-1db30a23f123)
-    (property "Reference" "J18" (at 53.34 60.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 54.61 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 54.61 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 54.61 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eecd1d5d-bf88-4aed-ba1c-58e882ad299d))
-    (pin "2" (uuid 9240ee07-a7dc-4297-afaf-5684ed90336c))
-    (pin "3" (uuid 71efdb19-e998-4c44-8197-37afbd6a9c4c))
-    (pin "4" (uuid e63d2c87-257f-42df-b87c-ad2d215719e8))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 53.34 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 27138732-8d95-47dd-8919-c4b42925dbbb)
-    (property "Reference" "J26" (at 53.34 24.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "barrel_jack" (at 53.34 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 53.34 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 53.34 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 4d5ebc26-dfc7-49f8-9a11-1ff3bbecbdc2))
-    (pin "" (uuid 4d5ebc26-dfc7-49f8-9a11-1ff3bbecbdc2))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J26") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 27.94 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 851674db-c787-4a6f-9cbe-ead3c0230150)
-    (property "Reference" "J18" (at 27.94 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 27.94 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 27.94 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid ad68364b-1dab-4536-8ab3-0213af58fed3))
-    (pin "" (uuid ad68364b-1dab-4536-8ab3-0213af58fed3))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J18") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 53.34 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 86bd0608-d711-4ab4-b795-ceac065e1437)
-    (property "Reference" "J27" (at 53.34 36.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "barrel_jack" (at 53.34 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 53.34 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 53.34 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 00295eab-ba54-4fed-ad6f-c74c533fa3b1))
-    (pin "" (uuid 00295eab-ba54-4fed-ad6f-c74c533fa3b1))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J27") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J33") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 53.34 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e9f48a6-0a53-400b-b3bd-3daec22e7b0e)
-    (property "Reference" "J28" (at 53.34 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "barrel_jack" (at 53.34 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 53.34 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 53.34 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 1875e647-8716-476c-b9bd-11c2d6ed5d2a))
-    (pin "" (uuid 1875e647-8716-476c-b9bd-11c2d6ed5d2a))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J28") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J34") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:bayonet_10pin") (at 78.74 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b4715430-45c6-489b-809f-d86c16225c7b)
-    (property "Reference" "J17" (at 78.74 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 78.74 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 78.74 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 78.74 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 29177c42-3494-44ba-8f31-15a8f1f5ecb8))
-    (pin "10" (uuid 2c2a73ba-0eb9-4e65-b3bd-5ff371269046))
-    (pin "2" (uuid 2ee26e67-5577-4650-b4b6-d7b690ef83e7))
-    (pin "3" (uuid 2b432978-c4b9-4223-872a-5cf802cf65d3))
-    (pin "4" (uuid 25e023ef-de36-4706-b1e8-9011249d49b1))
-    (pin "5" (uuid 5d5ed559-0c62-4e49-bda5-c03cb6bd6b80))
-    (pin "6" (uuid e2f18827-da8f-4b50-80f9-f2a70dd38763))
-    (pin "7" (uuid 1b7b61ef-3909-4cb7-a90c-db8674560038))
-    (pin "8" (uuid abd682cd-d34d-49cd-a6df-c3c96e6cc75e))
-    (pin "9" (uuid 051c9bcd-c91e-40f4-9049-1a8ddc69fec5))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 27.94 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b4da2199-8171-486a-a91b-76280ff718c9)
-    (property "Reference" "J17" (at 27.94 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 27.94 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 27.94 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid bef7b6d6-7513-4b35-8ab7-a58fb224bb66))
-    (pin "" (uuid bef7b6d6-7513-4b35-8ab7-a58fb224bb66))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J17") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:barrel_jack") (at 27.94 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f89e0554-c9f4-4759-b4c2-bead1a1ea5b2)
-    (property "Reference" "J19" (at 27.94 52.07 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 27.94 52.07 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 27.94 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid f21cdcd1-61e8-4e58-ab9f-a18d3a8784eb))
-    (pin "" (uuid f21cdcd1-61e8-4e58-ab9f-a18d3a8784eb))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "J19") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
-          (reference "J31") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7c97d187-0859-44cc-8e4e-21c8971ca80c")
+	(paper "A4")
+	(title_block
+		(title "LED Driver Box")
+		(date "2023-07-19")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
+	(lib_symbols
+		(symbol "led_driver:barrel_jack"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "barrel_jack"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "barrel_jack_0_1"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "barrel_jack_1_1"
+				(pin input line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "POS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "led_driver:bayonet_10pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "bayonet_10pin_0_1"
+				(rectangle
+					(start -2.54 12.7)
+					(end 2.54 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "bayonet_10pin_1_1"
+				(pin passive line
+					(at 5.08 11.43 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -11.43 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "led_driver:bayonet_4pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "bayonet_4pin_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "bayonet_4pin_1_1"
+				(pin passive line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "DB9 connector\nAssmann A-DS 09 LL/Z"
+		(exclude_from_sim no)
+		(at 50.8 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d24035a-e546-45d3-8b2a-016786766943")
+	)
+	(text "barrel jacks x3\nschurter 4840.2200"
+		(exclude_from_sim no)
+		(at 25.4 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a58325db-8f85-461c-aece-dc29b21cc061")
+	)
+	(text "DB15 connector\nNorcomp 171-015-103L001"
+		(exclude_from_sim no)
+		(at 76.2 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "facc349d-f335-49bb-a0eb-8287cc899acd")
+	)
+	(hierarchical_label "CTRL1"
+		(shape input)
+		(at 58.42 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a072de2-b997-4f53-bdc9-42bc963d46b9")
+	)
+	(hierarchical_label "V-3"
+		(shape input)
+		(at 58.42 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14009789-d9bb-4810-9179-581d2d764cb1")
+	)
+	(hierarchical_label "V-1"
+		(shape input)
+		(at 58.42 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1566adf5-58f3-4ebb-aedf-4b062f649e3b")
+	)
+	(hierarchical_label "ENBL1.3"
+		(shape input)
+		(at 83.82 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1db5d8e6-b664-4cbe-8eed-e5b36b9ba3db")
+	)
+	(hierarchical_label "GND_V+1"
+		(shape input)
+		(at 33.02 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1eca4546-ece0-49f1-a9ab-46c5a79eaeb9")
+	)
+	(hierarchical_label "V+2"
+		(shape input)
+		(at 33.02 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "313a1617-d53b-4f2c-8125-05b5571822be")
+	)
+	(hierarchical_label "V-2"
+		(shape input)
+		(at 58.42 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f6d1f7c-4ddd-4362-a1a5-20be30be9ce0")
+	)
+	(hierarchical_label "GND_CTRL"
+		(shape input)
+		(at 58.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "443be6e6-1af5-4bbc-8464-2c08b8962fad")
+	)
+	(hierarchical_label "GND_V-1"
+		(shape input)
+		(at 58.42 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53d34698-3319-4bca-9104-d11dc945ea2e")
+	)
+	(hierarchical_label "GND_V+2"
+		(shape input)
+		(at 33.02 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54fa4460-61b3-4535-aa59-28ea9e985b44")
+	)
+	(hierarchical_label "GND_V+3"
+		(shape input)
+		(at 33.02 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "668fa387-0542-4fa7-a015-748b26a09d7c")
+	)
+	(hierarchical_label "CTRL3"
+		(shape input)
+		(at 58.42 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74a752d6-1044-4a7f-ab86-ebe5c5e11037")
+	)
+	(hierarchical_label "ENBL1.2"
+		(shape input)
+		(at 83.82 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d4510c-af3e-4315-89b1-c7505b318edd")
+	)
+	(hierarchical_label "ENBL1.1"
+		(shape input)
+		(at 83.82 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d7d212e-d93c-4b9f-9a16-8d3606da7fcb")
+	)
+	(hierarchical_label "CTRL2"
+		(shape input)
+		(at 58.42 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dc1545d-5234-4863-ac86-e48408d6a031")
+	)
+	(hierarchical_label "ENBL3.2"
+		(shape input)
+		(at 83.82 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e014a35-fe5b-4ebe-9509-2a0be67cbb65")
+	)
+	(hierarchical_label "ENBL2.3"
+		(shape input)
+		(at 83.82 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fb1ea42-92f3-45fd-b7dc-6cf34a993298")
+	)
+	(hierarchical_label "GND_V-3"
+		(shape input)
+		(at 58.42 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c92764a-0d41-4d7f-ab91-2216a3a527cf")
+	)
+	(hierarchical_label "ENBL2.1"
+		(shape input)
+		(at 83.82 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba351258-e263-4c33-a3c1-ab780a368f7f")
+	)
+	(hierarchical_label "ENBL3.3"
+		(shape input)
+		(at 83.82 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdddb13f-9a0e-44d4-bdf0-6d86840617d1")
+	)
+	(hierarchical_label "V+3"
+		(shape input)
+		(at 33.02 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf5330d5-4156-415b-bbea-f8b1e7fc3b1b")
+	)
+	(hierarchical_label "GND_ENBL"
+		(shape input)
+		(at 83.82 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2b6b68a-885a-4397-a09e-366bef9ae142")
+	)
+	(hierarchical_label "ENBL3.1"
+		(shape input)
+		(at 83.82 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0758d48-2db9-4962-adcf-d50e8cc32cfa")
+	)
+	(hierarchical_label "V+1"
+		(shape input)
+		(at 33.02 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa6a02a7-b754-40f4-a518-9cbd31c65c6d")
+	)
+	(hierarchical_label "GND_V-2"
+		(shape input)
+		(at 58.42 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe642fd9-68f7-4ac9-91ae-baca375d961d")
+	)
+	(hierarchical_label "ENBL2.2"
+		(shape input)
+		(at 83.82 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff0f6695-6e92-49f4-b28f-7e4b0f356feb")
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_4pin")
+		(at 53.34 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "038e7073-947d-493c-8388-1db30a23f123")
+		(property "Reference" "J18"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eecd1d5d-bf88-4aed-ba1c-58e882ad299d")
+		)
+		(pin "2"
+			(uuid "9240ee07-a7dc-4297-afaf-5684ed90336c")
+		)
+		(pin "3"
+			(uuid "71efdb19-e998-4c44-8197-37afbd6a9c4c")
+		)
+		(pin "4"
+			(uuid "e63d2c87-257f-42df-b87c-ad2d215719e8")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 53.34 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27138732-8d95-47dd-8919-c4b42925dbbb")
+		(property "Reference" "J32"
+			(at 53.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "barrel_jack"
+			(at 53.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4d5ebc26-dfc7-49f8-9a11-1ff3bbecbdc2")
+		)
+		(pin ""
+			(uuid "4d5ebc26-dfc7-49f8-9a11-1ff3bbecbdc3")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 27.94 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851674db-c787-4a6f-9cbe-ead3c0230150")
+		(property "Reference" "J30"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad68364b-1dab-4536-8ab3-0213af58fed3")
+		)
+		(pin ""
+			(uuid "ad68364b-1dab-4536-8ab3-0213af58fed4")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 53.34 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86bd0608-d711-4ab4-b795-ceac065e1437")
+		(property "Reference" "J33"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "barrel_jack"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "00295eab-ba54-4fed-ad6f-c74c533fa3b1")
+		)
+		(pin ""
+			(uuid "00295eab-ba54-4fed-ad6f-c74c533fa3b2")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 53.34 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e9f48a6-0a53-400b-b3bd-3daec22e7b0e")
+		(property "Reference" "J34"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "barrel_jack"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1875e647-8716-476c-b9bd-11c2d6ed5d2a")
+		)
+		(pin ""
+			(uuid "1875e647-8716-476c-b9bd-11c2d6ed5d2b")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:bayonet_10pin")
+		(at 78.74 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4715430-45c6-489b-809f-d86c16225c7b")
+		(property "Reference" "J17"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29177c42-3494-44ba-8f31-15a8f1f5ecb8")
+		)
+		(pin "10"
+			(uuid "2c2a73ba-0eb9-4e65-b3bd-5ff371269046")
+		)
+		(pin "2"
+			(uuid "2ee26e67-5577-4650-b4b6-d7b690ef83e7")
+		)
+		(pin "3"
+			(uuid "2b432978-c4b9-4223-872a-5cf802cf65d3")
+		)
+		(pin "4"
+			(uuid "25e023ef-de36-4706-b1e8-9011249d49b1")
+		)
+		(pin "5"
+			(uuid "5d5ed559-0c62-4e49-bda5-c03cb6bd6b80")
+		)
+		(pin "6"
+			(uuid "e2f18827-da8f-4b50-80f9-f2a70dd38763")
+		)
+		(pin "7"
+			(uuid "1b7b61ef-3909-4cb7-a90c-db8674560038")
+		)
+		(pin "8"
+			(uuid "abd682cd-d34d-49cd-a6df-c3c96e6cc75e")
+		)
+		(pin "9"
+			(uuid "051c9bcd-c91e-40f4-9049-1a8ddc69fec5")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 27.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4da2199-8171-486a-a91b-76280ff718c9")
+		(property "Reference" "J29"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bef7b6d6-7513-4b35-8ab7-a58fb224bb66")
+		)
+		(pin ""
+			(uuid "bef7b6d6-7513-4b35-8ab7-a58fb224bb67")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:barrel_jack")
+		(at 27.94 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89e0554-c9f4-4759-b4c2-bead1a1ea5b2")
+		(property "Reference" "J31"
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f21cdcd1-61e8-4e58-ab9f-a18d3a8784eb")
+		)
+		(pin ""
+			(uuid "f21cdcd1-61e8-4e58-ab9f-a18d3a8784ec")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/3e6a5cb4-ac30-401e-9677-760e7bc58bd1"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

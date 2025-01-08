@@ -1,1093 +1,2812 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d73a5aa4-518f-4e36-896a-fc42f88fed77)
-
-  (paper "A4")
-
-  (title_block
-    (title "LED Driver Box")
-    (date "2023-07-19")
-    (company "SBC")
-    (comment 1 "Zhiheng Sheng")
-  )
-
-  (lib_symbols
-    (symbol "Device:Fuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fuse" (at -1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "fuse" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Fuse" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*Fuse*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fuse_0_1"
-        (rectangle (start -0.762 -2.54) (end 0.762 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Fuse_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "led_driver:Sense_R" (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Sense_R_0_1"
-        (rectangle (start -3.81 1.27) (end 3.81 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Sense_R_1_1"
-        (pin passive line (at -6.35 0 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 6.35 0 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 67.31 45.72) (xy 72.39 45.72))
-    (stroke (width 0) (type default))
-    (uuid 001f3319-209f-4416-a6a8-bbf618fe48c7)
-  )
-  (wire (pts (xy 113.03 90.17) (xy 147.32 90.17))
-    (stroke (width 0) (type default))
-    (uuid 015b9bac-ec39-48f1-a727-aa4881cc9c83)
-  )
-  (wire (pts (xy 54.61 53.34) (xy 59.69 53.34))
-    (stroke (width 0) (type default))
-    (uuid 01a6931d-6bce-498c-a19d-bc4d077e2b63)
-  )
-  (wire (pts (xy 138.43 74.93) (xy 162.56 74.93))
-    (stroke (width 0) (type default))
-    (uuid 1166b837-64e3-41b3-ab53-47c209b668a3)
-  )
-  (wire (pts (xy 57.15 81.28) (xy 69.85 81.28))
-    (stroke (width 0) (type default))
-    (uuid 1be775b2-4725-4e10-b25c-86bcc8789f79)
-  )
-  (wire (pts (xy 54.61 48.26) (xy 59.69 48.26))
-    (stroke (width 0) (type default))
-    (uuid 1dff12be-15d0-4c27-8543-0b2ad32a0153)
-  )
-  (wire (pts (xy 113.03 64.77) (xy 125.73 64.77))
-    (stroke (width 0) (type default))
-    (uuid 207a7adc-92ae-4720-9be5-5f153df1ddae)
-  )
-  (wire (pts (xy 144.78 39.37) (xy 144.78 87.63))
-    (stroke (width 0) (type default))
-    (uuid 24f628ee-cdcc-4e50-ac9e-1115d60b5f12)
-  )
-  (wire (pts (xy 57.15 73.66) (xy 69.85 73.66))
-    (stroke (width 0) (type default))
-    (uuid 2727868f-272d-4596-866e-9d24cd32a067)
-  )
-  (wire (pts (xy 113.03 54.61) (xy 125.73 54.61))
-    (stroke (width 0) (type default))
-    (uuid 2e3ecf87-a5a0-45a4-b506-adc9ab5792c8)
-  )
-  (wire (pts (xy 113.03 39.37) (xy 125.73 39.37))
-    (stroke (width 0) (type default))
-    (uuid 307568be-2181-49a5-b6de-6e713ae95cb8)
-  )
-  (wire (pts (xy 113.03 100.33) (xy 157.48 100.33))
-    (stroke (width 0) (type default))
-    (uuid 31dcb251-7b3b-437c-8189-33bbfaf3fc33)
-  )
-  (wire (pts (xy 157.48 64.77) (xy 157.48 100.33))
-    (stroke (width 0) (type default))
-    (uuid 3685e2f7-bb04-49d2-9e42-dd8ab448c0e5)
-  )
-  (wire (pts (xy 57.15 66.04) (xy 69.85 66.04))
-    (stroke (width 0) (type default))
-    (uuid 37b65b5e-b031-4569-b1bc-aeaa45faf3bf)
-  )
-  (wire (pts (xy 67.31 35.56) (xy 72.39 35.56))
-    (stroke (width 0) (type default))
-    (uuid 3d8ef3c0-9198-4d8f-917b-2d99370a28c9)
-  )
-  (wire (pts (xy 67.31 38.1) (xy 72.39 38.1))
-    (stroke (width 0) (type default))
-    (uuid 4354df81-7254-435e-b42a-aef8617daea8)
-  )
-  (wire (pts (xy 113.03 85.09) (xy 142.24 85.09))
-    (stroke (width 0) (type default))
-    (uuid 43882c50-7b15-4837-9c51-1128174322ab)
-  )
-  (wire (pts (xy 138.43 39.37) (xy 144.78 39.37))
-    (stroke (width 0) (type default))
-    (uuid 4b5b1727-5b8a-4d47-b4f4-6f4429ff8a0a)
-  )
-  (wire (pts (xy 149.86 92.71) (xy 113.03 92.71))
-    (stroke (width 0) (type default))
-    (uuid 4cd1e62d-3c9c-420b-97c7-b7d4ec97c475)
-  )
-  (wire (pts (xy 67.31 50.8) (xy 72.39 50.8))
-    (stroke (width 0) (type default))
-    (uuid 5439b0d8-1631-4c41-956f-36d203d0ad6b)
-  )
-  (wire (pts (xy 54.61 55.88) (xy 59.69 55.88))
-    (stroke (width 0) (type default))
-    (uuid 54a17370-93f8-44af-bbb3-7fbe8823c778)
-  )
-  (wire (pts (xy 138.43 49.53) (xy 149.86 49.53))
-    (stroke (width 0) (type default))
-    (uuid 5d42dc3e-fdd6-454d-999a-26a77c4fab16)
-  )
-  (wire (pts (xy 113.03 95.25) (xy 152.4 95.25))
-    (stroke (width 0) (type default))
-    (uuid 5e6bcb10-5acd-4fc8-ada2-48b8eaad2ff0)
-  )
-  (wire (pts (xy 152.4 54.61) (xy 152.4 95.25))
-    (stroke (width 0) (type default))
-    (uuid 62acf291-7746-40cf-a459-c49c10948350)
-  )
-  (wire (pts (xy 57.15 86.36) (xy 69.85 86.36))
-    (stroke (width 0) (type default))
-    (uuid 6519b811-8fcc-4276-af03-d0db917ace3c)
-  )
-  (wire (pts (xy 154.94 59.69) (xy 154.94 97.79))
-    (stroke (width 0) (type default))
-    (uuid 69afd7ec-bdc1-4024-8708-7babe4deca52)
-  )
-  (wire (pts (xy 138.43 44.45) (xy 147.32 44.45))
-    (stroke (width 0) (type default))
-    (uuid 6b9ba9f7-2ea0-43ad-b40b-836a08239e03)
-  )
-  (wire (pts (xy 54.61 40.64) (xy 59.69 40.64))
-    (stroke (width 0) (type default))
-    (uuid 74e5728a-44ae-4db1-bf17-7c2385788080)
-  )
-  (wire (pts (xy 154.94 97.79) (xy 113.03 97.79))
-    (stroke (width 0) (type default))
-    (uuid 77dd2376-8282-455b-bb21-06a2b88c1795)
-  )
-  (wire (pts (xy 57.15 83.82) (xy 69.85 83.82))
-    (stroke (width 0) (type default))
-    (uuid 78f902c3-224f-4b36-8fd9-dad296480171)
-  )
-  (wire (pts (xy 138.43 54.61) (xy 152.4 54.61))
-    (stroke (width 0) (type default))
-    (uuid 797afd16-928b-4b32-bc52-3fee80cf76f4)
-  )
-  (wire (pts (xy 113.03 59.69) (xy 125.73 59.69))
-    (stroke (width 0) (type default))
-    (uuid 7cd692df-8c5c-4871-b362-f8e1519e2b8b)
-  )
-  (wire (pts (xy 113.03 34.29) (xy 125.73 34.29))
-    (stroke (width 0) (type default))
-    (uuid 7d6ce984-9e1b-4414-ab51-a9c7b1f9cd34)
-  )
-  (wire (pts (xy 67.31 40.64) (xy 72.39 40.64))
-    (stroke (width 0) (type default))
-    (uuid 7e533cdf-81ee-4a52-8cd7-25d7a14ac518)
-  )
-  (wire (pts (xy 113.03 105.41) (xy 162.56 105.41))
-    (stroke (width 0) (type default))
-    (uuid 811f9336-8751-4324-8d53-0808c2a22b1b)
-  )
-  (wire (pts (xy 54.61 45.72) (xy 59.69 45.72))
-    (stroke (width 0) (type default))
-    (uuid 8552a0f3-1545-4cd4-9547-df4d0731529a)
-  )
-  (wire (pts (xy 57.15 76.2) (xy 69.85 76.2))
-    (stroke (width 0) (type default))
-    (uuid 89e679bc-c9b3-4188-b2e6-01daf279ae65)
-  )
-  (wire (pts (xy 138.43 59.69) (xy 154.94 59.69))
-    (stroke (width 0) (type default))
-    (uuid 901472e0-5aef-4bcf-8b3c-7c4aa88ba44b)
-  )
-  (wire (pts (xy 160.02 69.85) (xy 160.02 102.87))
-    (stroke (width 0) (type default))
-    (uuid 90f2ec34-412f-415d-bc4c-f30966a0fa58)
-  )
-  (wire (pts (xy 57.15 71.12) (xy 69.85 71.12))
-    (stroke (width 0) (type default))
-    (uuid 98baf7af-1b7e-457a-8caa-0b638e36059d)
-  )
-  (wire (pts (xy 113.03 49.53) (xy 125.73 49.53))
-    (stroke (width 0) (type default))
-    (uuid 9937af15-d292-45b9-b9fd-d48697f8d565)
-  )
-  (wire (pts (xy 67.31 55.88) (xy 72.39 55.88))
-    (stroke (width 0) (type default))
-    (uuid 99dee98c-e245-4606-99ed-c6a133362a03)
-  )
-  (wire (pts (xy 67.31 48.26) (xy 72.39 48.26))
-    (stroke (width 0) (type default))
-    (uuid 9a707d45-9c2d-4e8c-952c-0d57f7636273)
-  )
-  (wire (pts (xy 113.03 102.87) (xy 160.02 102.87))
-    (stroke (width 0) (type default))
-    (uuid 9c6c014c-a2d7-45ac-9099-6112a0d60ace)
-  )
-  (wire (pts (xy 57.15 68.58) (xy 69.85 68.58))
-    (stroke (width 0) (type default))
-    (uuid 9cf37be6-e878-4c29-a0a1-0f81cbc28371)
-  )
-  (wire (pts (xy 113.03 44.45) (xy 125.73 44.45))
-    (stroke (width 0) (type default))
-    (uuid a0541285-5c4c-4792-824b-799ac533acce)
-  )
-  (wire (pts (xy 113.03 74.93) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid a47dfda2-f2cd-40c3-825e-58cd1570fb4c)
-  )
-  (wire (pts (xy 54.61 38.1) (xy 59.69 38.1))
-    (stroke (width 0) (type default))
-    (uuid a6283509-e205-426c-aa53-170590be34e2)
-  )
-  (wire (pts (xy 138.43 34.29) (xy 142.24 34.29))
-    (stroke (width 0) (type default))
-    (uuid a7151633-e776-4677-b3ac-eafc0590bb50)
-  )
-  (wire (pts (xy 57.15 78.74) (xy 69.85 78.74))
-    (stroke (width 0) (type default))
-    (uuid add0d6bd-d5fa-4761-8714-728694b7da63)
-  )
-  (wire (pts (xy 54.61 35.56) (xy 59.69 35.56))
-    (stroke (width 0) (type default))
-    (uuid c54f75c4-f481-487c-9c8d-c35972781778)
-  )
-  (wire (pts (xy 67.31 43.18) (xy 72.39 43.18))
-    (stroke (width 0) (type default))
-    (uuid c7c72bb1-d3c5-4a3a-a9c0-7784c2abe64a)
-  )
-  (wire (pts (xy 67.31 53.34) (xy 72.39 53.34))
-    (stroke (width 0) (type default))
-    (uuid d1ca3382-adbe-4520-b8d5-9ecb963fa87c)
-  )
-  (wire (pts (xy 138.43 69.85) (xy 160.02 69.85))
-    (stroke (width 0) (type default))
-    (uuid d2050f39-ed75-47aa-877e-05828ce81e6b)
-  )
-  (wire (pts (xy 54.61 50.8) (xy 59.69 50.8))
-    (stroke (width 0) (type default))
-    (uuid ddf714e1-e9e3-43db-b3e4-0be7f4e37661)
-  )
-  (wire (pts (xy 149.86 49.53) (xy 149.86 92.71))
-    (stroke (width 0) (type default))
-    (uuid e32fc293-b154-48e5-a042-a48ceafbd6ad)
-  )
-  (wire (pts (xy 162.56 74.93) (xy 162.56 105.41))
-    (stroke (width 0) (type default))
-    (uuid e48b880b-61d7-43fa-b1fc-8593c1c9a29b)
-  )
-  (wire (pts (xy 144.78 87.63) (xy 113.03 87.63))
-    (stroke (width 0) (type default))
-    (uuid e6ee7238-454f-4c44-a717-007877cf093f)
-  )
-  (wire (pts (xy 138.43 64.77) (xy 157.48 64.77))
-    (stroke (width 0) (type default))
-    (uuid ea04005a-62b1-49a7-a3be-30020f9b3d40)
-  )
-  (wire (pts (xy 142.24 34.29) (xy 142.24 85.09))
-    (stroke (width 0) (type default))
-    (uuid f3c60c8c-9feb-4877-a65c-3fbc673fbb0f)
-  )
-  (wire (pts (xy 113.03 69.85) (xy 125.73 69.85))
-    (stroke (width 0) (type default))
-    (uuid f9e21827-886f-48a9-8c93-528da9068669)
-  )
-  (wire (pts (xy 54.61 43.18) (xy 59.69 43.18))
-    (stroke (width 0) (type default))
-    (uuid fa1636fa-3f2f-486d-ac6a-21849584ba49)
-  )
-  (wire (pts (xy 147.32 44.45) (xy 147.32 90.17))
-    (stroke (width 0) (type default))
-    (uuid fa28ccef-25e1-46e3-83c7-be9b57e8e3cb)
-  )
-
-  (rectangle (start 55.88 33.02) (end 71.12 58.42)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 14dffa44-9e40-4941-bd54-8d46a009c41d)
-  )
-  (rectangle (start 58.42 63.5) (end 68.58 88.9)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 443e986c-630d-45a0-9da8-191942a05253)
-  )
-  (rectangle (start 114.3 31.75) (end 124.46 77.47)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 85c5c6de-b3a9-437b-ad1d-dd4f88119bd9)
-  )
-  (rectangle (start 114.3 82.55) (end 124.46 107.95)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid ea5485e8-ddbd-476a-99c0-e2c469099533)
-  )
-
-  (text "power resistors\nKAL25FB1R00" (at 125.73 26.67 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 19d353b0-97e9-4d0e-9796-fc0daf59af6e)
-  )
-  (text "1A slow blow fuse\n5TT 1-R" (at 55.88 27.94 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b6c5af2f-9eff-4c34-8791-472aed418630)
-  )
-  (text "Terminal blocks:\nWeidmueller 1020100000" (at 55.88 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fd47c7c7-aacd-421e-bb41-6f3ed3e6adb0)
-  )
-
-  (hierarchical_label "LED-2.3_IN" (shape input) (at 57.15 78.74 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 007d914e-fd9c-4aac-8793-3a68e306f221)
-  )
-  (hierarchical_label "LED+3.2_IN" (shape input) (at 54.61 53.34 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0536a8ea-0d5a-4dc0-93e4-5a437f295a75)
-  )
-  (hierarchical_label "R2.3-" (shape input) (at 113.03 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 05609cc6-0c15-40d9-aae9-b278ca5a6c96)
-  )
-  (hierarchical_label "LED-1.1_OUT" (shape input) (at 69.85 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0680f678-99e9-48d6-a9fd-e6a45cc2556f)
-  )
-  (hierarchical_label "LED-2.1_OUT" (shape input) (at 69.85 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 07563e4c-105f-4eb9-9a63-43d842272dbd)
-  )
-  (hierarchical_label "R3.2+" (shape input) (at 113.03 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0790810e-51da-4a90-9ffd-1aa9ac5fe6c9)
-  )
-  (hierarchical_label "LED+3.1_OUT" (shape input) (at 72.39 50.8 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0ddc43d6-2e4b-4978-a879-b51d33220e2d)
-  )
-  (hierarchical_label "LED-3.3_IN" (shape input) (at 57.15 86.36 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 127811ba-f9d9-4236-a433-390518a36968)
-  )
-  (hierarchical_label "R2.2-" (shape input) (at 113.03 95.25 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 189d1719-4e73-4d70-8ab2-aceaeeb9cebd)
-  )
-  (hierarchical_label "R2.2+" (shape input) (at 113.03 54.61 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1af846ec-fec3-4bba-a0fb-4eaa2b2f5135)
-  )
-  (hierarchical_label "LED-3.3_OUT" (shape input) (at 69.85 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 25afb780-84fa-426c-bdda-355cf35744f4)
-  )
-  (hierarchical_label "LED+2.1_OUT" (shape input) (at 72.39 43.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2cc8f4c6-d5a5-4f5d-86c7-98aa5d5da67f)
-  )
-  (hierarchical_label "LED-3.1_IN" (shape input) (at 57.15 81.28 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2ddb5124-6bf1-4df6-a354-e8256a42fbb4)
-  )
-  (hierarchical_label "R1.2-" (shape input) (at 113.03 87.63 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2feee745-db09-4355-9ed1-a84fc31a575a)
-  )
-  (hierarchical_label "LED+2.2_OUT" (shape input) (at 72.39 45.72 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 37a19b18-ed73-429e-8e15-f775e79e593d)
-  )
-  (hierarchical_label "LED+2.1_IN" (shape input) (at 54.61 43.18 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 389aff0a-e607-40d6-b8d4-060e6b2c129f)
-  )
-  (hierarchical_label "R1.3+" (shape input) (at 113.03 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3db5fd10-1099-4039-86c2-82948b02f843)
-  )
-  (hierarchical_label "LED+2.3_IN" (shape input) (at 54.61 48.26 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 47b62566-8bce-4a51-ab6d-9002cdda7548)
-  )
-  (hierarchical_label "R3.3-" (shape input) (at 113.03 105.41 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4ad6d960-01e5-4295-b243-283d05d71e18)
-  )
-  (hierarchical_label "R1.3-" (shape input) (at 113.03 90.17 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 51861cae-1a34-4b36-aae5-fa376a074335)
-  )
-  (hierarchical_label "R1.1+" (shape input) (at 113.03 34.29 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5831e26b-5d47-4aa7-b6d3-190f432b8397)
-  )
-  (hierarchical_label "LED-1.2_OUT" (shape input) (at 69.85 68.58 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 59e268a2-1598-40af-a62e-23c926ec5add)
-  )
-  (hierarchical_label "LED-1.3_OUT" (shape input) (at 69.85 71.12 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5ba9e2de-d5e1-4f91-bcd3-e9f82f9f94c2)
-  )
-  (hierarchical_label "LED+1.2_OUT" (shape input) (at 72.39 38.1 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6189007c-de61-471b-bcfe-2e55e9515c15)
-  )
-  (hierarchical_label "R3.2-" (shape input) (at 113.03 102.87 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 61ca764d-b05b-4e78-9f4b-c903c8481ad9)
-  )
-  (hierarchical_label "LED+3.1_IN" (shape input) (at 54.61 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 61f23d9b-9b86-4399-a95a-113e4c00f245)
-  )
-  (hierarchical_label "LED-2.2_OUT" (shape input) (at 69.85 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6ef26d07-a154-49ab-a9d1-47b0add1110d)
-  )
-  (hierarchical_label "LED-3.2_IN" (shape input) (at 57.15 83.82 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 74b87aee-99f5-4f83-8703-61ce20eea76a)
-  )
-  (hierarchical_label "LED-1.2_IN" (shape input) (at 57.15 68.58 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7853509a-4569-470d-ba9f-acb19e4b4719)
-  )
-  (hierarchical_label "LED+1.3_OUT" (shape input) (at 72.39 40.64 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7e8ae5eb-39df-4494-8f70-e81fda9eb3cc)
-  )
-  (hierarchical_label "LED+1.3_IN" (shape input) (at 54.61 40.64 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7f8ddbbf-d256-4333-8093-b1a7aedf0401)
-  )
-  (hierarchical_label "LED+2.3_OUT" (shape input) (at 72.39 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8465a1ba-3bc8-48ec-9c71-755f8f27f32f)
-  )
-  (hierarchical_label "R3.1+" (shape input) (at 113.03 64.77 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8ab9c88c-8b6e-405b-91fb-8dd09dcdeb89)
-  )
-  (hierarchical_label "LED-2.1_IN" (shape input) (at 57.15 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8af2ec96-b107-4808-9010-9f8bb2721742)
-  )
-  (hierarchical_label "R2.1-" (shape input) (at 113.03 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8df44494-d19b-4a65-a053-ffc1cc3f1786)
-  )
-  (hierarchical_label "R3.1-" (shape input) (at 113.03 100.33 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8f228775-fb57-4e08-9177-5813e92a1bf7)
-  )
-  (hierarchical_label "LED+1.1_OUT" (shape input) (at 72.39 35.56 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9898b307-60b1-461d-86ff-8469712673b0)
-  )
-  (hierarchical_label "R1.1-" (shape input) (at 113.03 85.09 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 98a3b986-47ea-4568-add9-7dd3e55635a9)
-  )
-  (hierarchical_label "LED-2.3_OUT" (shape input) (at 69.85 78.74 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 99556d0f-fc08-46c4-ace7-b531ec5113ed)
-  )
-  (hierarchical_label "LED+3.3_IN" (shape input) (at 54.61 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9a9e2445-298f-41aa-b030-b5000240ad79)
-  )
-  (hierarchical_label "LED-3.2_OUT" (shape input) (at 69.85 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a312cc5b-f15e-4a70-8656-ad40b2748928)
-  )
-  (hierarchical_label "LED-2.2_IN" (shape input) (at 57.15 76.2 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a65e3b56-5da5-4973-8fb2-95d5b475fcc4)
-  )
-  (hierarchical_label "LED-1.3_IN" (shape input) (at 57.15 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a8cbd54e-8ecb-49c5-b6fb-1690578dd720)
-  )
-  (hierarchical_label "LED+1.2_IN" (shape input) (at 54.61 38.1 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid acd2e5fd-d4a2-4804-b232-e0e8a0d7af2e)
-  )
-  (hierarchical_label "R3.3+" (shape input) (at 113.03 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b20b786b-b300-4c6e-a325-6cc3b5ad63cd)
-  )
-  (hierarchical_label "LED-3.1_OUT" (shape input) (at 69.85 81.28 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b8d57cd8-f2ba-4b1c-bcc9-366a57242868)
-  )
-  (hierarchical_label "LED+3.3_OUT" (shape input) (at 72.39 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c6baebb1-d625-493e-acc3-41e5bca3d77b)
-  )
-  (hierarchical_label "R2.3+" (shape input) (at 113.03 59.69 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d375048a-e92f-43f6-8e8e-ac31e25178e9)
-  )
-  (hierarchical_label "R1.2+" (shape input) (at 113.03 39.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d67ebb54-1299-4936-af96-4aa5717f3655)
-  )
-  (hierarchical_label "LED+1.1_IN" (shape input) (at 54.61 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid dbba45eb-1c26-444a-b87b-1ece183903a6)
-  )
-  (hierarchical_label "LED+2.2_IN" (shape input) (at 54.61 45.72 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e2921277-abc9-49ee-9054-2ede45096576)
-  )
-  (hierarchical_label "LED-1.1_IN" (shape input) (at 57.15 66.04 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f0113002-b480-4961-bc01-6b24102ba198)
-  )
-  (hierarchical_label "R2.1+" (shape input) (at 113.03 49.53 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f34f371d-3593-4d6f-963e-372c0265d4e1)
-  )
-  (hierarchical_label "LED+3.2_OUT" (shape input) (at 72.39 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid faa5d42b-8c3f-49f7-83da-699925d4aea8)
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0f1a1c70-3051-471d-a224-d5e236d6a0bf)
-    (property "Reference" "R1" (at 132.08 34.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 33.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1a8b7970-a89e-40f5-a627-1a55b0edfbcf))
-    (pin "2" (uuid d9916b3d-0ccb-4e62-ae9f-35f8e12db15f))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R55") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2db758e4-f93a-46a0-9d8e-61deff96ca62)
-    (property "Reference" "R1" (at 132.08 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ae43f494-c1af-465a-956c-2b15487331b4))
-    (pin "2" (uuid c949aae1-2177-477a-9b0c-6def22231659))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R57") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3054da4f-d09a-430b-88bb-67679b666def)
-    (property "Reference" "R1" (at 132.08 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5a369d8-75c2-42dc-a66f-be04ca60b51f))
-    (pin "2" (uuid ab68fc1e-cff2-4ef9-878f-26420832ad45))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R61") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 31c4d4dc-edf8-4aa4-abe0-1af2b44762f2)
-    (property "Reference" "R1" (at 132.08 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37aa9474-788d-44e3-8c20-b3910ac71505))
-    (pin "2" (uuid 7019b3f7-e910-402b-9bab-501d93bb1726))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R58") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 38.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 34163155-7cd0-40ef-83c8-d4374a0c7d8b)
-    (property "Reference" "F2" (at 58.42 36.83 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 36.83 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 39.878 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 492cc605-f253-4ad5-ab40-83b5ccc8cc7e))
-    (pin "2" (uuid c6614a85-65f0-451f-b6fa-6a2069485253))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 45.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4527f8cb-586f-4fea-93b4-1bcfa0973f22)
-    (property "Reference" "F5" (at 58.42 44.45 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 44.45 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 47.498 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e1ba4d4-67d5-4252-b968-743d18e2c5b8))
-    (pin "2" (uuid 282d1466-f920-452e-a94f-aa9d5371cc57))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6546956e-e74f-4b5a-97f5-da051b37a046)
-    (property "Reference" "R1" (at 132.08 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eccde14c-483e-4a6b-a5d3-d4fdf65f18a4))
-    (pin "2" (uuid 113e67f0-b707-4a5b-a791-04e77294671c))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R62") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 70486a02-9935-415a-99ef-e177b5f5a0c2)
-    (property "Reference" "R1" (at 132.08 54.61 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9344a677-46b8-4429-b132-bcb2f4a411ff))
-    (pin "2" (uuid e64e4f63-5076-495b-aa5c-d229c8e785c9))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R59") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 53.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 786d5c28-2e26-4ac6-9d52-2ab2614f7f60)
-    (property "Reference" "F8" (at 58.42 52.07 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 52.07 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 55.118 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 272cc037-650b-4b22-ad5c-0243070fbed0))
-    (pin "2" (uuid ed4c0dab-5f84-4c98-8b5e-bd81502f6133))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 827ba673-bdc8-4211-bfed-a553fbce71b0)
-    (property "Reference" "R1" (at 132.08 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aa3bed72-58b9-464c-8c1b-1c8f1fa331c8))
-    (pin "2" (uuid 8c31204c-e99e-4fcb-b4a4-be89330b6e65))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R63") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 48.26 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 82b88c37-01b2-4e4a-b739-b15d69d48402)
-    (property "Reference" "F6" (at 58.42 46.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 46.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 50.038 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ae489133-1440-49b5-a460-fd45960a444b))
-    (pin "2" (uuid 25106c46-2551-419d-908b-8fdec8fd7428))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d791848f-9386-4c0a-ad9e-0d7d622d81f4)
-    (property "Reference" "R1" (at 132.08 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52b91a20-d9d8-47ab-9ef0-ef7e27a46b08))
-    (pin "2" (uuid 562dd0bf-e536-4724-b06a-812fa18ba760))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R56") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 40.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid de14a2f7-8203-45e4-b6a0-4785b2525a90)
-    (property "Reference" "F3" (at 58.42 39.37 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 39.37 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 42.418 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c98e1ed-87e6-43bc-bff5-8b6f2ec00f40))
-    (pin "2" (uuid f750f592-e31b-4418-89bf-b9e09a87688b))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e27fd1ab-b5ae-4b69-96fc-36961b359aee)
-    (property "Reference" "F7" (at 58.42 49.53 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 49.53 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 52.578 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 68388787-3999-4012-8368-8939bbfe50cc))
-    (pin "2" (uuid cabfa79e-1508-48c4-bc0f-bf609cb7c4ea))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "led_driver:Sense_R") (at 132.08 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e4f0ee98-efa0-4be3-abce-7f5f281e09f3)
-    (property "Reference" "R1" (at 132.08 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 132.08 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2c4b0f37-93ce-4d05-aa2f-95082110819e))
-    (pin "2" (uuid 7a8a91c5-d4cb-407e-9247-56cad281600d))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862"
-          (reference "R1") (unit 1)
-        )
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "R60") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 43.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f45aa6d5-f4fe-4647-89a7-1855cdae5fe9)
-    (property "Reference" "F4" (at 58.42 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 44.958 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c6be77c3-7cf4-442b-8935-a6c46d464a03))
-    (pin "2" (uuid 3ef029cb-f46c-4c3d-a854-c285f5706576))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fc654870-bbcd-4da8-be05-0b94630a5b0b)
-    (property "Reference" "F1" (at 58.42 34.29 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 34.29 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 37.338 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb6d1b06-fabb-4b0d-a932-659a989ef8e6))
-    (pin "2" (uuid d884ca2e-1d17-4464-8322-d565341778f9))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 63.5 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fde71c47-b221-4ab8-87de-a8f15f80473d)
-    (property "Reference" "F9" (at 58.42 54.61 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Fuse" (at 68.58 54.61 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 57.658 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8243d81-ed5c-4cf4-b768-912c0ec77ab8))
-    (pin "2" (uuid d6943c73-fbcd-47e8-bee1-4ca8c5f70059))
-    (instances
-      (project "led_driver_box"
-        (path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
-          (reference "F9") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d73a5aa4-518f-4e36-896a-fc42f88fed77")
+	(paper "A4")
+	(title_block
+		(title "LED Driver Box")
+		(date "2023-07-19")
+		(company "SBC")
+		(comment 1 "Zhiheng Sheng")
+	)
+	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "led_driver:Sense_R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Sense_R_0_1"
+				(rectangle
+					(start -3.81 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Sense_R_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 67.31 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001f3319-209f-4416-a6a8-bbf618fe48c7")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015b9bac-ec39-48f1-a727-aa4881cc9c83")
+	)
+	(wire
+		(pts
+			(xy 54.61 53.34) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a6931d-6bce-498c-a19d-bc4d077e2b63")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1166b837-64e3-41b3-ab53-47c209b668a3")
+	)
+	(wire
+		(pts
+			(xy 57.15 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be775b2-4725-4e10-b25c-86bcc8789f79")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dff12be-15d0-4c27-8543-0b2ad32a0153")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207a7adc-92ae-4720-9be5-5f153df1ddae")
+	)
+	(wire
+		(pts
+			(xy 144.78 39.37) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f628ee-cdcc-4e50-ac9e-1115d60b5f12")
+	)
+	(wire
+		(pts
+			(xy 57.15 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2727868f-272d-4596-866e-9d24cd32a067")
+	)
+	(wire
+		(pts
+			(xy 113.03 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3ecf87-a5a0-45a4-b506-adc9ab5792c8")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307568be-2181-49a5-b6de-6e713ae95cb8")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dcb251-7b3b-437c-8189-33bbfaf3fc33")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3685e2f7-bb04-49d2-9e42-dd8ab448c0e5")
+	)
+	(wire
+		(pts
+			(xy 57.15 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b65b5e-b031-4569-b1bc-aeaa45faf3bf")
+	)
+	(wire
+		(pts
+			(xy 67.31 35.56) (xy 72.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8ef3c0-9198-4d8f-917b-2d99370a28c9")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 72.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4354df81-7254-435e-b42a-aef8617daea8")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43882c50-7b15-4837-9c51-1128174322ab")
+	)
+	(wire
+		(pts
+			(xy 138.43 39.37) (xy 144.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5b1727-5b8a-4d47-b4f4-6f4429ff8a0a")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd1e62d-3c9c-420b-97c7-b7d4ec97c475")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5439b0d8-1631-4c41-956f-36d203d0ad6b")
+	)
+	(wire
+		(pts
+			(xy 54.61 55.88) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a17370-93f8-44af-bbb3-7fbe8823c778")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 149.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d42dc3e-fdd6-454d-999a-26a77c4fab16")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6bcb10-5acd-4fc8-ada2-48b8eaad2ff0")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62acf291-7746-40cf-a459-c49c10948350")
+	)
+	(wire
+		(pts
+			(xy 57.15 86.36) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6519b811-8fcc-4276-af03-d0db917ace3c")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69afd7ec-bdc1-4024-8708-7babe4deca52")
+	)
+	(wire
+		(pts
+			(xy 138.43 44.45) (xy 147.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9ba9f7-2ea0-43ad-b40b-836a08239e03")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 59.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e5728a-44ae-4db1-bf17-7c2385788080")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77dd2376-8282-455b-bb21-06a2b88c1795")
+	)
+	(wire
+		(pts
+			(xy 57.15 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f902c3-224f-4b36-8fd9-dad296480171")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797afd16-928b-4b32-bc52-3fee80cf76f4")
+	)
+	(wire
+		(pts
+			(xy 113.03 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd692df-8c5c-4871-b362-f8e1519e2b8b")
+	)
+	(wire
+		(pts
+			(xy 113.03 34.29) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ce984-9e1b-4414-ab51-a9c7b1f9cd34")
+	)
+	(wire
+		(pts
+			(xy 67.31 40.64) (xy 72.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e533cdf-81ee-4a52-8cd7-25d7a14ac518")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f9336-8751-4324-8d53-0808c2a22b1b")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8552a0f3-1545-4cd4-9547-df4d0731529a")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e679bc-c9b3-4188-b2e6-01daf279ae65")
+	)
+	(wire
+		(pts
+			(xy 138.43 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901472e0-5aef-4bcf-8b3c-7c4aa88ba44b")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f2ec34-412f-415d-bc4c-f30966a0fa58")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98baf7af-1b7e-457a-8caa-0b638e36059d")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9937af15-d292-45b9-b9fd-d48697f8d565")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dee98c-e245-4606-99ed-c6a133362a03")
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a707d45-9c2d-4e8c-952c-0d57f7636273")
+	)
+	(wire
+		(pts
+			(xy 113.03 102.87) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6c014c-a2d7-45ac-9099-6112a0d60ace")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf37be6-e878-4c29-a0a1-0f81cbc28371")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0541285-5c4c-4792-824b-799ac533acce")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47dfda2-f2cd-40c3-825e-58cd1570fb4c")
+	)
+	(wire
+		(pts
+			(xy 54.61 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6283509-e205-426c-aa53-170590be34e2")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 142.24 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7151633-e776-4677-b3ac-eafc0590bb50")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add0d6bd-d5fa-4761-8714-728694b7da63")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54f75c4-f481-487c-9c8d-c35972781778")
+	)
+	(wire
+		(pts
+			(xy 67.31 43.18) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c72bb1-d3c5-4a3a-a9c0-7784c2abe64a")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ca3382-adbe-4520-b8d5-9ecb963fa87c")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2050f39-ed75-47aa-877e-05828ce81e6b")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf714e1-e9e3-43db-b3e4-0be7f4e37661")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32fc293-b154-48e5-a042-a48ceafbd6ad")
+	)
+	(wire
+		(pts
+			(xy 162.56 74.93) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48b880b-61d7-43fa-b1fc-8593c1c9a29b")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ee7238-454f-4c44-a717-007877cf093f")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea04005a-62b1-49a7-a3be-30020f9b3d40")
+	)
+	(wire
+		(pts
+			(xy 142.24 34.29) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c60c8c-9feb-4877-a65c-3fbc673fbb0f")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e21827-886f-48a9-8c93-528da9068669")
+	)
+	(wire
+		(pts
+			(xy 54.61 43.18) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1636fa-3f2f-486d-ac6a-21849584ba49")
+	)
+	(wire
+		(pts
+			(xy 147.32 44.45) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa28ccef-25e1-46e3-83c7-be9b57e8e3cb")
+	)
+	(rectangle
+		(start 55.88 33.02)
+		(end 71.12 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14dffa44-9e40-4941-bd54-8d46a009c41d)
+	)
+	(rectangle
+		(start 58.42 63.5)
+		(end 68.58 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 443e986c-630d-45a0-9da8-191942a05253)
+	)
+	(rectangle
+		(start 114.3 31.75)
+		(end 124.46 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85c5c6de-b3a9-437b-ad1d-dd4f88119bd9)
+	)
+	(rectangle
+		(start 114.3 82.55)
+		(end 124.46 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea5485e8-ddbd-476a-99c0-e2c469099533)
+	)
+	(text "power resistors\nKAL25FB1R00"
+		(exclude_from_sim no)
+		(at 125.73 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19d353b0-97e9-4d0e-9796-fc0daf59af6e")
+	)
+	(text "1A slow blow fuse\n5TT 1-R"
+		(exclude_from_sim no)
+		(at 55.88 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c5af2f-9eff-4c34-8791-472aed418630")
+	)
+	(text "Terminal blocks:\nWeidmueller 1020100000"
+		(exclude_from_sim no)
+		(at 55.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd47c7c7-aacd-421e-bb41-6f3ed3e6adb0")
+	)
+	(hierarchical_label "LED-2.3_IN"
+		(shape input)
+		(at 57.15 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "007d914e-fd9c-4aac-8793-3a68e306f221")
+	)
+	(hierarchical_label "LED+3.2_IN"
+		(shape input)
+		(at 54.61 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0536a8ea-0d5a-4dc0-93e4-5a437f295a75")
+	)
+	(hierarchical_label "R2.3-"
+		(shape input)
+		(at 113.03 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05609cc6-0c15-40d9-aae9-b278ca5a6c96")
+	)
+	(hierarchical_label "LED-1.1_OUT"
+		(shape input)
+		(at 69.85 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0680f678-99e9-48d6-a9fd-e6a45cc2556f")
+	)
+	(hierarchical_label "LED-2.1_OUT"
+		(shape input)
+		(at 69.85 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07563e4c-105f-4eb9-9a63-43d842272dbd")
+	)
+	(hierarchical_label "R3.2+"
+		(shape input)
+		(at 113.03 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0790810e-51da-4a90-9ffd-1aa9ac5fe6c9")
+	)
+	(hierarchical_label "LED+3.1_OUT"
+		(shape input)
+		(at 72.39 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ddc43d6-2e4b-4978-a879-b51d33220e2d")
+	)
+	(hierarchical_label "LED-3.3_IN"
+		(shape input)
+		(at 57.15 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "127811ba-f9d9-4236-a433-390518a36968")
+	)
+	(hierarchical_label "R2.2-"
+		(shape input)
+		(at 113.03 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "189d1719-4e73-4d70-8ab2-aceaeeb9cebd")
+	)
+	(hierarchical_label "R2.2+"
+		(shape input)
+		(at 113.03 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1af846ec-fec3-4bba-a0fb-4eaa2b2f5135")
+	)
+	(hierarchical_label "LED-3.3_OUT"
+		(shape input)
+		(at 69.85 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25afb780-84fa-426c-bdda-355cf35744f4")
+	)
+	(hierarchical_label "LED+2.1_OUT"
+		(shape input)
+		(at 72.39 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cc8f4c6-d5a5-4f5d-86c7-98aa5d5da67f")
+	)
+	(hierarchical_label "LED-3.1_IN"
+		(shape input)
+		(at 57.15 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ddb5124-6bf1-4df6-a354-e8256a42fbb4")
+	)
+	(hierarchical_label "R1.2-"
+		(shape input)
+		(at 113.03 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2feee745-db09-4355-9ed1-a84fc31a575a")
+	)
+	(hierarchical_label "LED+2.2_OUT"
+		(shape input)
+		(at 72.39 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37a19b18-ed73-429e-8e15-f775e79e593d")
+	)
+	(hierarchical_label "LED+2.1_IN"
+		(shape input)
+		(at 54.61 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "389aff0a-e607-40d6-b8d4-060e6b2c129f")
+	)
+	(hierarchical_label "R1.3+"
+		(shape input)
+		(at 113.03 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3db5fd10-1099-4039-86c2-82948b02f843")
+	)
+	(hierarchical_label "LED+2.3_IN"
+		(shape input)
+		(at 54.61 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47b62566-8bce-4a51-ab6d-9002cdda7548")
+	)
+	(hierarchical_label "R3.3-"
+		(shape input)
+		(at 113.03 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ad6d960-01e5-4295-b243-283d05d71e18")
+	)
+	(hierarchical_label "R1.3-"
+		(shape input)
+		(at 113.03 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51861cae-1a34-4b36-aae5-fa376a074335")
+	)
+	(hierarchical_label "R1.1+"
+		(shape input)
+		(at 113.03 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5831e26b-5d47-4aa7-b6d3-190f432b8397")
+	)
+	(hierarchical_label "LED-1.2_OUT"
+		(shape input)
+		(at 69.85 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59e268a2-1598-40af-a62e-23c926ec5add")
+	)
+	(hierarchical_label "LED-1.3_OUT"
+		(shape input)
+		(at 69.85 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ba9e2de-d5e1-4f91-bcd3-e9f82f9f94c2")
+	)
+	(hierarchical_label "LED+1.2_OUT"
+		(shape input)
+		(at 72.39 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6189007c-de61-471b-bcfe-2e55e9515c15")
+	)
+	(hierarchical_label "R3.2-"
+		(shape input)
+		(at 113.03 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61ca764d-b05b-4e78-9f4b-c903c8481ad9")
+	)
+	(hierarchical_label "LED+3.1_IN"
+		(shape input)
+		(at 54.61 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61f23d9b-9b86-4399-a95a-113e4c00f245")
+	)
+	(hierarchical_label "LED-2.2_OUT"
+		(shape input)
+		(at 69.85 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ef26d07-a154-49ab-a9d1-47b0add1110d")
+	)
+	(hierarchical_label "LED-3.2_IN"
+		(shape input)
+		(at 57.15 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74b87aee-99f5-4f83-8703-61ce20eea76a")
+	)
+	(hierarchical_label "LED-1.2_IN"
+		(shape input)
+		(at 57.15 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7853509a-4569-470d-ba9f-acb19e4b4719")
+	)
+	(hierarchical_label "LED+1.3_OUT"
+		(shape input)
+		(at 72.39 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e8ae5eb-39df-4494-8f70-e81fda9eb3cc")
+	)
+	(hierarchical_label "LED+1.3_IN"
+		(shape input)
+		(at 54.61 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f8ddbbf-d256-4333-8093-b1a7aedf0401")
+	)
+	(hierarchical_label "LED+2.3_OUT"
+		(shape input)
+		(at 72.39 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8465a1ba-3bc8-48ec-9c71-755f8f27f32f")
+	)
+	(hierarchical_label "R3.1+"
+		(shape input)
+		(at 113.03 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ab9c88c-8b6e-405b-91fb-8dd09dcdeb89")
+	)
+	(hierarchical_label "LED-2.1_IN"
+		(shape input)
+		(at 57.15 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8af2ec96-b107-4808-9010-9f8bb2721742")
+	)
+	(hierarchical_label "R2.1-"
+		(shape input)
+		(at 113.03 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8df44494-d19b-4a65-a053-ffc1cc3f1786")
+	)
+	(hierarchical_label "R3.1-"
+		(shape input)
+		(at 113.03 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f228775-fb57-4e08-9177-5813e92a1bf7")
+	)
+	(hierarchical_label "LED+1.1_OUT"
+		(shape input)
+		(at 72.39 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9898b307-60b1-461d-86ff-8469712673b0")
+	)
+	(hierarchical_label "R1.1-"
+		(shape input)
+		(at 113.03 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98a3b986-47ea-4568-add9-7dd3e55635a9")
+	)
+	(hierarchical_label "LED-2.3_OUT"
+		(shape input)
+		(at 69.85 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99556d0f-fc08-46c4-ace7-b531ec5113ed")
+	)
+	(hierarchical_label "LED+3.3_IN"
+		(shape input)
+		(at 54.61 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a9e2445-298f-41aa-b030-b5000240ad79")
+	)
+	(hierarchical_label "LED-3.2_OUT"
+		(shape input)
+		(at 69.85 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a312cc5b-f15e-4a70-8656-ad40b2748928")
+	)
+	(hierarchical_label "LED-2.2_IN"
+		(shape input)
+		(at 57.15 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a65e3b56-5da5-4973-8fb2-95d5b475fcc4")
+	)
+	(hierarchical_label "LED-1.3_IN"
+		(shape input)
+		(at 57.15 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8cbd54e-8ecb-49c5-b6fb-1690578dd720")
+	)
+	(hierarchical_label "LED+1.2_IN"
+		(shape input)
+		(at 54.61 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acd2e5fd-d4a2-4804-b232-e0e8a0d7af2e")
+	)
+	(hierarchical_label "R3.3+"
+		(shape input)
+		(at 113.03 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b20b786b-b300-4c6e-a325-6cc3b5ad63cd")
+	)
+	(hierarchical_label "LED-3.1_OUT"
+		(shape input)
+		(at 69.85 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8d57cd8-f2ba-4b1c-bcc9-366a57242868")
+	)
+	(hierarchical_label "LED+3.3_OUT"
+		(shape input)
+		(at 72.39 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6baebb1-d625-493e-acc3-41e5bca3d77b")
+	)
+	(hierarchical_label "R2.3+"
+		(shape input)
+		(at 113.03 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d375048a-e92f-43f6-8e8e-ac31e25178e9")
+	)
+	(hierarchical_label "R1.2+"
+		(shape input)
+		(at 113.03 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d67ebb54-1299-4936-af96-4aa5717f3655")
+	)
+	(hierarchical_label "LED+1.1_IN"
+		(shape input)
+		(at 54.61 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbba45eb-1c26-444a-b87b-1ece183903a6")
+	)
+	(hierarchical_label "LED+2.2_IN"
+		(shape input)
+		(at 54.61 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2921277-abc9-49ee-9054-2ede45096576")
+	)
+	(hierarchical_label "LED-1.1_IN"
+		(shape input)
+		(at 57.15 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0113002-b480-4961-bc01-6b24102ba198")
+	)
+	(hierarchical_label "R2.1+"
+		(shape input)
+		(at 113.03 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f34f371d-3593-4d6f-963e-372c0265d4e1")
+	)
+	(hierarchical_label "LED+3.2_OUT"
+		(shape input)
+		(at 72.39 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faa5d42b-8c3f-49f7-83da-699925d4aea8")
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f1a1c70-3051-471d-a224-d5e236d6a0bf")
+		(property "Reference" "R55"
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8b7970-a89e-40f5-a627-1a55b0edfbcf")
+		)
+		(pin "2"
+			(uuid "d9916b3d-0ccb-4e62-ae9f-35f8e12db15f")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2db758e4-f93a-46a0-9d8e-61deff96ca62")
+		(property "Reference" "R57"
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae43f494-c1af-465a-956c-2b15487331b4")
+		)
+		(pin "2"
+			(uuid "c949aae1-2177-477a-9b0c-6def22231659")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3054da4f-d09a-430b-88bb-67679b666def")
+		(property "Reference" "R61"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5a369d8-75c2-42dc-a66f-be04ca60b51f")
+		)
+		(pin "2"
+			(uuid "ab68fc1e-cff2-4ef9-878f-26420832ad45")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c4d4dc-edf8-4aa4-abe0-1af2b44762f2")
+		(property "Reference" "R58"
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37aa9474-788d-44e3-8c20-b3910ac71505")
+		)
+		(pin "2"
+			(uuid "7019b3f7-e910-402b-9bab-501d93bb1726")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34163155-7cd0-40ef-83c8-d4374a0c7d8b")
+		(property "Reference" "F2"
+			(at 58.42 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492cc605-f253-4ad5-ab40-83b5ccc8cc7e")
+		)
+		(pin "2"
+			(uuid "c6614a85-65f0-451f-b6fa-6a2069485253")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4527f8cb-586f-4fea-93b4-1bcfa0973f22")
+		(property "Reference" "F5"
+			(at 58.42 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1ba4d4-67d5-4252-b968-743d18e2c5b8")
+		)
+		(pin "2"
+			(uuid "282d1466-f920-452e-a94f-aa9d5371cc57")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6546956e-e74f-4b5a-97f5-da051b37a046")
+		(property "Reference" "R62"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eccde14c-483e-4a6b-a5d3-d4fdf65f18a4")
+		)
+		(pin "2"
+			(uuid "113e67f0-b707-4a5b-a791-04e77294671c")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70486a02-9935-415a-99ef-e177b5f5a0c2")
+		(property "Reference" "R59"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9344a677-46b8-4429-b132-bcb2f4a411ff")
+		)
+		(pin "2"
+			(uuid "e64e4f63-5076-495b-aa5c-d229c8e785c9")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "786d5c28-2e26-4ac6-9d52-2ab2614f7f60")
+		(property "Reference" "F8"
+			(at 58.42 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "272cc037-650b-4b22-ad5c-0243070fbed0")
+		)
+		(pin "2"
+			(uuid "ed4c0dab-5f84-4c98-8b5e-bd81502f6133")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "827ba673-bdc8-4211-bfed-a553fbce71b0")
+		(property "Reference" "R63"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa3bed72-58b9-464c-8c1b-1c8f1fa331c8")
+		)
+		(pin "2"
+			(uuid "8c31204c-e99e-4fcb-b4a4-be89330b6e65")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b88c37-01b2-4e4a-b739-b15d69d48402")
+		(property "Reference" "F6"
+			(at 58.42 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae489133-1440-49b5-a460-fd45960a444b")
+		)
+		(pin "2"
+			(uuid "25106c46-2551-419d-908b-8fdec8fd7428")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d791848f-9386-4c0a-ad9e-0d7d622d81f4")
+		(property "Reference" "R56"
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b91a20-d9d8-47ab-9ef0-ef7e27a46b08")
+		)
+		(pin "2"
+			(uuid "562dd0bf-e536-4724-b06a-812fa18ba760")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de14a2f7-8203-45e4-b6a0-4785b2525a90")
+		(property "Reference" "F3"
+			(at 58.42 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c98e1ed-87e6-43bc-bff5-8b6f2ec00f40")
+		)
+		(pin "2"
+			(uuid "f750f592-e31b-4418-89bf-b9e09a87688b")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e27fd1ab-b5ae-4b69-96fc-36961b359aee")
+		(property "Reference" "F7"
+			(at 58.42 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68388787-3999-4012-8368-8939bbfe50cc")
+		)
+		(pin "2"
+			(uuid "cabfa79e-1508-48c4-bc0f-bf609cb7c4ea")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_driver:Sense_R")
+		(at 132.08 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f0ee98-efa0-4be3-abce-7f5f281e09f3")
+		(property "Reference" "R60"
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4b0f37-93ce-4d05-aa2f-95082110819e")
+		)
+		(pin "2"
+			(uuid "7a8a91c5-d4cb-407e-9247-56cad281600d")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f45aa6d5-f4fe-4647-89a7-1855cdae5fe9")
+		(property "Reference" "F4"
+			(at 58.42 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6be77c3-7cf4-442b-8935-a6c46d464a03")
+		)
+		(pin "2"
+			(uuid "3ef029cb-f46c-4c3d-a854-c285f5706576")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc654870-bbcd-4da8-be05-0b94630a5b0b")
+		(property "Reference" "F1"
+			(at 58.42 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6d1b06-fabb-4b0d-a932-659a989ef8e6")
+		)
+		(pin "2"
+			(uuid "d884ca2e-1d17-4464-8322-d565341778f9")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde71c47-b221-4ab8-87de-a8f15f80473d")
+		(property "Reference" "F9"
+			(at 58.42 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 68.58 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8243d81-ed5c-4cf4-b768-912c0ec77ab8")
+		)
+		(pin "2"
+			(uuid "d6943c73-fbcd-47e8-bee1-4ca8c5f70059")
+		)
+		(instances
+			(project "led_driver_box"
+				(path "/33b0be37-4aa5-415a-8914-5441d29c7862/9387f123-e31c-422e-82a6-fbe4cb7bcc0c"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
